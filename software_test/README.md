@@ -7,7 +7,7 @@
 
 *1*
 
-因果图中，![img](https://p.ananas.chaoxing.com/star3/origin/a919b15cdad0f2d1a4df20283da07056.png)这个符号表示
+因果图中，![img](md_img/a919b15cdad0f2d1a4df20283da07056.png)这个符号表示
 
 - A、
 
@@ -53,7 +53,7 @@
 
 运行Junit测试后，以下部分结果的截图
 
-![img](https://p.ananas.chaoxing.com/star3/origin/cf2eac8e04bc084a7017d33562dc7045.png)
+![img](md_img/cf2eac8e04bc084a7017d33562dc7045.png)
 
 下面描述正确的是？
 
@@ -275,7 +275,7 @@ Junit具体是通过哪个函数判断期望值和测试值是否一致的？
 
 FileZillaServer设置目录的权限如下图
 
-![img](https://p.ananas.chaoxing.com/star3/origin/2c7f263b5c93301bc713a10976d1ee21.png)
+![img](md_img/2c7f263b5c93301bc713a10976d1ee21.png)
 
 - A、
 
@@ -313,7 +313,7 @@ FileZillaServer设置目录的权限如下图
 
 下图的判定表中，哪两列规划是可以合并成一列规则的？
 
-![img](https://p.ananas.chaoxing.com/star3/origin/2b75d38d2d11c2cb9f4ef8bd48795f79.png)
+![img](md_img/2b75d38d2d11c2cb9f4ef8bd48795f79.png)
 
 - A、
 
