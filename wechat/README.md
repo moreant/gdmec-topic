@@ -704,7 +704,7 @@
 
 分析小程序生命周期示意图，当视图线程(View Thread)第一次渲染完成后(First Render)，并发送通知给逻辑层线程(AppService Thread)，这时哪个生命周期回调函数将被调用？
 
-![1579414498pNKbCh.png](https://p.ananas.chaoxing.com/star3/origin/fd9dab1ec9aff848934ff7c83bacaa30.png)
+![1579414498pNKbCh.png](md_img/fd9dab1ec9aff848934ff7c83bacaa30.png)
 
 - A、
 
