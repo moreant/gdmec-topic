@@ -4760,3 +4760,6300 @@ map` 组件使用的经纬度是火星坐标系，调用 [wx.getLocation](https:
 ```
 
 我的答案：*√*
+
+## 课后作业15
+
+### 一、单选题 （题数：10，共 45.0 分）
+
+*1*
+
+原生组件说明
+
+https://developers.weixin.qq.com/miniprogram/dev/component/native-component.html
+
+API 基础
+
+https://developers.weixin.qq.com/miniprogram/dev/api/base/wx.canIUse.html
+
+选a
+
+
+
+（1.0分）
+
+*1.0* 分
+
+- A、
+
+  [b](javascript:void(0);)
+
+- B、
+
+  [a](javascript:void(0);)
+
+正确答案： B 我的答案：B
+
+*2*
+
+获取小程序全局的更新管理器需要调用哪个API？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [UpdateManager.onUpdateReady()](javascript:void(0);)
+
+- B、
+
+  [wx.getUpdateManager()](javascript:void(0);)
+
+- C、
+
+  [UpdateManager.applyUpdate()](javascript:void(0);)
+
+- D、
+
+  [UpdateManager.onCheckForUpdate()](javascript:void(0);)
+
+正确答案： B 我的答案：B
+
+*3*
+
+如果当前是热启动，wx.getEnterOptionsSync()的返回值与哪项一致？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [wx.getLaunchOptionsSync](javascript:void(0);)
+
+- B、
+
+  [App.onLaunch](javascript:void(0);)
+
+- C、
+
+  [App.onShow](javascript:void(0);)
+
+- D、
+
+  [ wx.getUpdateManager()](javascript:void(0);)
+
+正确答案： C 我的答案：C
+
+*4*
+
+微信小程序API，大多数都是异步的，异步接口调用不论成功失败都会执行的回调函数是？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [complete](javascript:void(0);)
+
+- B、
+
+  [except](javascript:void(0);)
+
+- C、
+
+  [fail](javascript:void(0);)
+
+- D、
+
+  [success](javascript:void(0);)
+
+正确答案： A 我的答案：A
+
+*5*
+
+获取系统信息wx.getSystemInfoSync的返回值中没有哪一项？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [wifiEnabled](javascript:void(0);)
+
+- B、
+
+  [batterySaved](javascript:void(0);)
+
+- C、
+
+  [platform](javascript:void(0);)
+
+- D、
+
+  [model](javascript:void(0);)
+
+- E、
+
+  [brand](javascript:void(0);)
+
+正确答案： B 我的答案：B
+
+*6*
+
+Android平台暂不支持的应用级事件监听API是哪一项
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [wx.onAppHide()](javascript:void(0);)
+
+- B、
+
+  [wx.onAudioInterruptionBegin()](javascript:void(0);)
+
+- C、
+
+  [wx.onPageNotFound()](javascript:void(0);)
+
+- D、
+
+  [ wx.onUnhandledRejection()](javascript:void(0);)
+
+正确答案： D 我的答案：D
+
+*7*
+
+若要在控制台显示小程序camera组件的resolution属性的high合法值可否在当前版本中使用的方法是？
+
+（4.0分）
+
+*4.0* 分
+
+- A、
+
+  [console.log(canIUse('camera.resolution.high'))](javascript:void(0);)
+
+- B、
+
+  [log(canIUse('camera.resolution.high'))](javascript:void(0);)
+
+- C、
+
+  [console.log(wx.canIUse('camera.resolution.high'))](javascript:void(0);)
+
+- D、
+
+  [ console.log(wx.canIUse(camera.resolution.high))](javascript:void(0);)
+
+正确答案： C 我的答案：C
+
+*8*
+
+RealtimeLogManager的日志信息可以在小程序后台哪个栏目查到？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [开发-运维中心-实时日志](javascript:void(0);)
+
+- B、
+
+  [开发-运维中心-性能监控](javascript:void(0);)
+
+- C、
+
+  [统计-使用分析-来源分析](javascript:void(0);)
+
+- D、
+
+  [开发-运维中心-错误查询](javascript:void(0);)
+
+- E、
+
+  [ 管理-用户反馈-功能异常](javascript:void(0);)
+
+- F、
+
+  [开发-运维中心-告警设置](javascript:void(0);)
+
+- G、
+
+  [管理-用户反馈-产品建议](javascript:void(0);)
+
+正确答案： A 我的答案：A
+
+*9*
+
+LogManager的日志信息可通过使用button组件的open-type="feedback"来上传打印的日志，日志信息可以在小程序后台哪个栏目查到？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [ 开发-运维中心-实时日志](javascript:void(0);)
+
+- B、
+
+  [开发-运维中心-性能监控](javascript:void(0);)
+
+- C、
+
+  [统计-使用分析-来源分析](javascript:void(0);)
+
+- D、
+
+  [开发-运维中心-告警设置](javascript:void(0);)
+
+- E、
+
+  [管理-用户反馈-产品建议](javascript:void(0);)
+
+- F、
+
+  [开发-运维中心-错误查询](javascript:void(0);)
+
+- G、
+
+  [管理-用户反馈-功能异常](javascript:void(0);)
+
+正确答案： F 我的答案：F
+
+*10*
+
+只有当场景值为1037(小程序打开小程序)和1038(从另外一个小程序返回)时，才能获取到的数据是哪一项？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [ query：启动小程序的 query 参数](javascript:void(0);)
+
+- B、
+
+  [extraData：来源小程序传过来的数据](javascript:void(0);)
+
+- C、
+
+  [ appId：来源小程序、公众号或APP的appId](javascript:void(0);)
+
+- D、
+
+  [shareTicket](javascript:void(0);)
+
+正确答案： B 我的答案：B
+
+### 二、多选题 （题数：6，共 30.0 分）
+
+*1*
+
+微信小程序调试日志有哪些方法？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [RealtimeLogManager实时日志管理](javascript:void(0);)
+
+- B、
+
+  [LogManager日志管理](javascript:void(0);)
+
+- C、
+
+  [ debug单步调试](javascript:void(0);)
+
+- D、
+
+  [console.log()输出到调试面板](javascript:void(0);)
+
+正确答案： ABD 我的答案：ABD
+
+*2*
+
+目前，由于原生组件脱离在WebView渲染流程外，因此在使用时有以下限制。
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [原生组件的层级是最高的，所以页面中的其他组件无论设置z-index为多少，都无法盖在原生组件上。](javascript:void(0);)
+
+- B、
+
+  [部分CSS样式无法应用于原生组件](javascript:void(0);)
+
+- C、
+
+  [原生组件的事件监听不能使用bind:eventname的写法，只支持bindeventname。原生组件也不支持catch和capture的事件绑定方式](javascript:void(0);)
+
+- D、
+
+  [后插入的原生组件可以覆盖之前的原生组件。](javascript:void(0);)
+
+- E、
+
+  [原生组件无法在picker-view中使用。](javascript:void(0);)
+
+- F、
+
+  [为了解决原生组件层级最高的限制。小程序专门提供了cover-view和cover-image组件，可以覆盖在部分原生组件上面。这两个组件也是原生组件，但是使用限制与其他原生组件有所不同。](javascript:void(0);)
+
+正确答案： ABCDEF 我的答案：ABCDEF
+
+*3*
+
+监听音频因为受到系统占用而被中断开始事件。以下哪些场景会触发此事件
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [微信语音聊天](javascript:void(0);)
+
+- B、
+
+  [微信摇一摇周边](javascript:void(0);)
+
+- C、
+
+  [FaceTime 通话](javascript:void(0);)
+
+- D、
+
+  [闹钟](javascript:void(0);)
+
+- E、
+
+  [微信视频聊天](javascript:void(0);)
+
+- F、
+
+  [电话](javascript:void(0);)
+
+正确答案： ACDEF 我的答案：ACDEF
+
+*4*
+
+ 获取小程序启动参数wx.getLaunchOptionsSync()可返回哪些信息
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [来源信息referrerInfo](javascript:void(0);)
+
+- B、
+
+  [小程序的权限](javascript:void(0);)
+
+- C、
+
+  [shareTicket](javascript:void(0);)
+
+- D、
+
+  [启动小程序的query值](javascript:void(0);)
+
+正确答案： ACD 我的答案：ACD
+
+*5*
+
+以下关于RealtimeLogManager叙述正确的是
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [一条日志的上限是5KB，最多包含200次打印日志函数调用(info、warn、error调用都算)，所以要谨慎打日志，避免在循环里面调用打日志接口，避免直接重写console.log的方式打日志。](javascript:void(0);)
+
+- B、
+
+  [setFilterMsg可以设置过滤的Msg。这个接口的目的是提供某个场景的过滤能力，例如setFilterMsg('scene1')，则在MP上可输入scene1查询得到该条日志。比如上线过程中，某个监控有问题，可以根据FilterMsg过滤这个场景下的具体的用户日志。FilterMsg仅支持大小写字母。如果需要添加多个关键字，建议使用addFilterMsg替代setFilterMsg。](javascript:void(0);)
+
+- C、
+
+  [为了定位问题方便，实时日志是按页面划分的，某一个页面，在onShow到onHide(切换到其它页面、右上角圆点退到后台)之间打的日志，会聚合成一条日志上报，并且在小程序管理后台上可以根据页面路径搜索出该条日志。](javascript:void(0);)
+
+- D、
+
+  [每个小程序账号每天限制500万条日志，日志会保留7天，建议遇到问题及时定位。 ](javascript:void(0);)
+
+正确答案： ABCD 我的答案：ABCD
+
+*6*
+
+小程序中的部分组件是由客户端创建的原生组件，下面哪些是原生组件 
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [camera](javascript:void(0);)
+
+- B、
+
+  [canvas](javascript:void(0);)
+
+- C、
+
+  [input](javascript:void(0);)
+
+- D、
+
+  [map](javascript:void(0);)
+
+- E、
+
+  [video](javascript:void(0);)
+
+- F、
+
+  [textarea](javascript:void(0);)
+
+- G、
+
+  [cover-view](javascript:void(0);)
+
+正确答案： ABCDEFG 我的答案：ABCDEFG
+
+### 三、判断题 （题数：5，共 25.0 分）
+
+*1*
+
+同层渲染是为了解决原生组件的层级问题，在支持同层渲染后，原生组件与其它组件可以随意叠加，有关层级的限制将不再存在。但需要注意的是，组件内部仍由原生渲染，样式一般还是对原生组件内部无效。当前video, map组件已支持同层渲染
+
+（5.0分）
+
+*5.0* 分
+
+正确答案： *√* 我的答案： *√*
+
+*2*
+
+navigation-bar只能是page-meta组件内的第一个节点
+
+（5.0分）
+
+*5.0* 分
+
+正确答案： *√* 我的答案： *√*
+
+*3*
+
+为了更好地满足视障人士对于小程序的访问需求，基础库自2.7.1起，支持部分ARIA标签。无障碍特性在读屏模式下可以访问，iOS可通过设置->通用->辅助功能->旁白打开。
+
+（5.0分）
+
+*5.0* 分
+
+正确答案： *√* 我的答案： *√*
+
+*4*
+
+page-meta组件只能是页面的第一个节点
+
+（5.0分）
+
+*5.0* 分
+
+正确答案： *√* 我的答案： *√*
+
+*5*
+
+在正式版打开调试除了调用wx.setEnableDebug()之外还有一种方法，就是先在开发版或体验版打开调试，再切到正式版就能看到vConsole。
+
+（5.0分）
+
+*5.0* 分
+
+正确答案： *√* 我的答案： *√*
+
+## 课后作业16
+
+### 一、单选题 （题数：12，共 56.0 分）
+
+*1*
+
+哪个交互API的参数对象没有title属性？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [wx.showLoading()](javascript:void(0);)
+
+- B、
+
+  [ wx.showToast()](javascript:void(0);)
+
+- C、
+
+  [wx.showModal()](javascript:void(0);)
+
+- D、
+
+  [wx.showActionSheet()](javascript:void(0);)
+
+正确答案： D 我的答案：D
+
+答案解析：
+
+*2*
+
+必须调用相关API才能关闭窗口的是哪个API？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [wx.showLoading()](javascript:void(0);)
+
+- B、
+
+  [wx.showModal()](javascript:void(0);)
+
+- C、
+
+  [ wx.showActionSheet()](javascript:void(0);)
+
+- D、
+
+  [wx.showToast()](javascript:void(0);)
+
+正确答案： A 我的答案：A
+
+*3*
+
+这张tabbar的截图中，4号箭头指向的效果是哪条API实现的。
+
+![img](https://pubnewfr.paperol.cn/55126335/1580615845HcxkbB.png?x-oss-process=image/quality,q_90/resize,w_708)
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [wx.setTabBarItem()](javascript:void(0);)
+
+- B、
+
+  [wx.setTabBarBadge()](javascript:void(0);)
+
+- C、
+
+  [wx.setTabBarStyle()](javascript:void(0);)
+
+- D、
+
+  [ wx.showTabBarRedDot()](javascript:void(0);)
+
+正确答案： C 我的答案：C
+
+*4*
+
+API基础 定时器
+
+https://developers.weixin.qq.com/miniprogram/dev/api/base/timer/clearInterval.html
+
+API路由
+
+https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.switchTab.html
+
+界面 交互API
+
+https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.showToast.html
+
+界面 导航栏API
+
+https://developers.weixin.qq.com/miniprogram/dev/api/ui/navigation-bar/wx.showNavigationBarLoading.html
+
+选a
+
+（1.0分）
+
+*1.0* 分
+
+- A、
+
+  [B](javascript:void(0);)
+
+- B、
+
+  [A](javascript:void(0);)
+
+正确答案： B 我的答案：B
+
+*5*
+
+这张tabbar的截图中，2号箭头指向的效果是哪条API实现的。
+
+![img](https://pubnewfr.paperol.cn/55126335/1580615797hJWyT4.png?x-oss-process=image/quality,q_90/resize,w_708)
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [wx.setTabBarItem()](javascript:void(0);)
+
+- B、
+
+  [wx.setTabBarStyle()](javascript:void(0);)
+
+- C、
+
+  [wx.setTabBarBadge()](javascript:void(0);)
+
+- D、
+
+  [wx.showTabBarRedDot()](javascript:void(0);)
+
+正确答案： D 我的答案：D
+
+*6*
+
+这张tabbar的截图中，1号箭头指向的效果是哪条API实现的。
+
+![1580615531J8SX5t](md_img/1580615531J8SX5t.png)
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [wx.setTabBarItem()](javascript:void(0);)
+
+- B、
+
+  [wx.showTabBarRedDot()](javascript:void(0);)
+
+- C、
+
+  [wx.setTabBarBadge()](javascript:void(0);)
+
+- D、
+
+  [ wx.setTabBarStyle()](javascript:void(0);)
+
+正确答案： C 我的答案：C
+
+答案解析：
+
+*7*
+
+下面哪个不是wx.setNavigationBarColor()的animation.timingFunc属性合法值
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [easeOut](javascript:void(0);)
+
+- B、
+
+  [linear](javascript:void(0);)
+
+- C、
+
+  [easeIn](javascript:void(0);)
+
+- D、
+
+  [easeInout](javascript:void(0);)
+
+正确答案： D 我的答案：D
+
+*8*
+
+关闭所有页面，打开到应用内的某个页面的API是哪一个？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [ wx.navigateTo()](javascript:void(0);)
+
+- B、
+
+  [wx.switchTab()](javascript:void(0);)
+
+- C、
+
+  [wx.reLaunch()](javascript:void(0);)
+
+- D、
+
+  [ wx.redirectTo()](javascript:void(0);)
+
+正确答案： C 我的答案：C
+
+*9*
+
+小程序页面栈最大层数是？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [15](javascript:void(0);)
+
+- B、
+
+  [5](javascript:void(0);)
+
+- C、
+
+  [10](javascript:void(0);)
+
+- D、
+
+  [20](javascript:void(0);)
+
+正确答案： C 我的答案：C
+
+*10*
+
+这张tabbar的截图中，3号箭头指向的文字效果是哪条API实现的。
+
+![1580615817PbmkdT](md_img/1580615817PbmkdT.png)
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [wx.setTabBarItem()](javascript:void(0);)
+
+- B、
+
+  [wx.showTabBarRedDot()](javascript:void(0);)
+
+- C、
+
+  [ wx.setTabBarBadge()](javascript:void(0);)
+
+- D、
+
+  [wx.setTabBarStyle()](javascript:void(0);)
+
+正确答案： D 我的答案：D
+
+答案解析：
+
+*11*
+
+这张tabbar的截图中，5号箭头指向的效果是哪条API实现的。浅蓝色的背景色
+
+![1580615888e4azfy](md_img/1580615888e4azfy.png)
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [wx.setTabBarItem()](javascript:void(0);)
+
+- B、
+
+  [wx.showTabBarRedDot()](javascript:void(0);)
+
+- C、
+
+  [wx.setTabBarStyle()](javascript:void(0);)
+
+- D、
+
+  [wx.setTabBarBadge()](javascript:void(0);)
+
+正确答案： C 我的答案：C
+
+*12*
+
+wx.hideHomeButton()需要在页面的哪个生命周期回调函数中执行才会生效？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [onHide()](javascript:void(0);)
+
+- B、
+
+  [onUnload()](javascript:void(0);)
+
+- C、
+
+  [ onShow()(](javascript:void(0);)
+
+- D、
+
+  [onLoad()](javascript:void(0);)
+
+正确答案： C 我的答案：C
+
+### 二、多选题 （题数：7，共 35.0 分）
+
+*1*
+
+跳转页面不能带query参数的API有哪些？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [wx.navigateBack()](javascript:void(0);)
+
+- B、
+
+  [wx.reLaunch()](javascript:void(0);)
+
+- C、
+
+  [wx.redirectTo()](javascript:void(0);)
+
+- D、
+
+  [wx.switchTab()](javascript:void(0);)
+
+- E、
+
+  [wx.navigateTo()](javascript:void(0);)
+
+正确答案： AD 我的答案：AD
+
+*2*
+
+小程序页面传参的方法有哪些？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [使用导航API传递query参数给新页面](javascript:void(0);)
+
+- B、
+
+  [使用wx.navigateTo页面跳转后事件的发布和订阅实现页面互传数据](javascript:void(0);)
+
+- C、
+
+  [使用App.globalData全局属性实现页面共享数据](javascript:void(0);)
+
+- D、
+
+  [使用getCurrentPages()读取页面栈，访问页面对象属性](javascript:void(0);)
+
+- E、
+
+  [使用本地数据缓存API实现页面传参](javascript:void(0);)
+
+正确答案： ABCDE 我的答案：ABCDE
+
+*3*
+
+EventChannel页面间通信通道的方法有哪些？ 
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [emit()](javascript:void(0);)
+
+- B、
+
+  [close()](javascript:void(0);)
+
+- C、
+
+  [on()](javascript:void(0);)
+
+- D、
+
+  [once()](javascript:void(0);)
+
+- E、
+
+  [off()](javascript:void(0);)
+
+正确答案： ACDE 我的答案：ACDE
+
+*4*
+
+微信小程序API中跟定时器相关的有哪些？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [wx.setInterval()](javascript:void(0);)
+
+- B、
+
+  [setTimeout()](javascript:void(0);)
+
+- C、
+
+  [clearInterval()](javascript:void(0);)
+
+- D、
+
+  [wx.clearTimeout()(](javascript:void(0);)
+
+正确答案： BC 我的答案：BC
+
+答案解析：
+
+*5*
+
+下面哪些是交互API
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [wx.showNavigationBarLoading()](javascript:void(0);)
+
+- B、
+
+  [wx.showLoading()](javascript:void(0);)
+
+- C、
+
+  [wx.showModal()](javascript:void(0);)
+
+- D、
+
+  [wx.showActionSheet()](javascript:void(0);)
+
+- E、
+
+  [wx.showToast()](javascript:void(0);)
+
+正确答案： BCDE 我的答案：BCDE
+
+*6*
+
+无法跳转到tab页的API有哪些？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [wx.navigateTo()](javascript:void(0);)
+
+- B、
+
+  [wx.redirectTo()](javascript:void(0);)
+
+- C、
+
+  [wx.switchTab()](javascript:void(0);)
+
+- D、
+
+  [wx.reLaunch()](javascript:void(0);)
+
+- E、
+
+  [wx.navigateBack()](javascript:void(0);)
+
+正确答案： AB 我的答案：AB
+
+*7*
+
+下面哪些交互API不能遮挡全部窗口，需要设置蒙层防止触摸穿透？
+
+（5.0分）
+
+*5.0* 分
+
+- A、
+
+  [wx.showLoading()](javascript:void(0);)
+
+- B、
+
+  [wx.showModal()](javascript:void(0);)
+
+- C、
+
+  [ wx.showToast()](javascript:void(0);)
+
+- D、
+
+  [wx.showActionSheet()](javascript:void(0);)
+
+正确答案： AC 我的答案：AC
+
+答案解析：
+
+### 三、判断题 （题数：4，共 9.0 分）
+
+*1*
+
+wx.showNavigationBarLoading()可以通过duration属性设置加载动画关闭的时间，单位是毫秒
+
+（2.0分）
+
+*2.0* 分
+
+正确答案： *×* 我的答案： *×*
+
+答案解析：
+
+*2*
+
+wx.setBackgroundColor()和wx.setBackgroundTextStyle()是用来动态设置页面的背景和背景文字样式的API
+
+（3.0分）
+
+*3.0* 分
+
+正确答案： *×* 我的答案： *×*
+
+答案解析：
+
+*3*
+
+ wx.setNavigationBarColor()的背景颜色属性backgroundColor仅支持#ffffff和#000000
+
+（2.0分）
+
+*2.0* 分
+
+正确答案： *×* 我的答案： *×*
+
+答案解析：
+
+*4*
+
+wx.switchTab()的功能是跳转到tabBar页面，并关闭其他所有非tabBar页面。需要跳转的tabBar页面的路径 (代码包路径)(需在app.json的tabBar字段定义的页面)，路径后不能带参数。
+
+（2.0分）
+
+*2.0* 分
+
+正确答案： *√* 我的答案： *√*
+
+## 课后作业17
+
+### 一.单选题*（共6题,28.2分）*
+
+*1*
+
+关于微信小程序网络超时叙述错误的是？
+
+- A、
+
+  默认超时时间和最大超时时间都是60ms。
+
+- B、
+
+  超时时间可以在app.json或game.json中通过networktimeout配置。
+
+- C、
+
+  超时时间可以在wx.request()、wx.downloadFile()、wx.uploadFile()或wx.connectSocket()的timeout属性设置。
+
+- D、
+
+  微信小程序四种网络请求的超时时间是相同的。
+
+正确答案： A 我的答案：A得分： 4.7分
+
+答案解析：
+
+60s
+
+*2*
+
+下面动图的动画共有四个步骤，正确的顺序是哪项？
+
+![1580615888e4azfy](md_img/1580615888e4azfy.png)
+
+- A、
+
+   scale->skew->translate->rotate
+
+- B、
+
+  rotate->scale->translate->skew
+
+- C、
+
+  skew->scale->rotate->translate
+
+- D、
+
+  translate->rotate->skew->scale
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*3*
+
+小程序进入后台运行后，如果( )秒以内网络请求没有结束，会回调错误信息fail interrupted。
+
+- A、
+
+  3
+
+- B、
+
+  5
+
+- C、
+
+  10
+
+- D、
+
+  30
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*4*
+
+API 字体
+
+https://developers.weixin.qq.com/miniprogram/dev/api/ui/font/wx.loadFontFace.html
+
+到
+
+API 网络
+
+https://developers.weixin.qq.com/miniprogram/dev/api/network/request/wx.request.html
+
+选A
+
+- A、
+
+  a
+
+- B、
+
+  b
+
+正确答案： A 我的答案：A得分： 4.7分
+
+*5*
+
+在input、textarea等focus拉起键盘之后，手动调用此接口收起键盘的API是哪个？
+
+- A、
+
+  wx.onKeyboardHeightChange()
+
+- B、
+
+  wx.hideKeyboard()
+
+- C、
+
+  wx.getSelectedTextRange()
+
+- D、
+
+  wx.setTopBarText()
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*6*
+
+ wx.request、wx.uploadFile、wx.downloadFile的最大并发限制是几个？；wx.connectSockt的最大并发限制是几个？
+
+- A、
+
+  5，5
+
+- B、
+
+  10，10
+
+- C、
+
+  10，5
+
+- D、
+
+  5，10
+
+正确答案： C 我的答案：C得分： 4.7分
+
+### 二.多选题*（共9题,42.3分）*
+
+*1*
+
+微信小程序的动画必要的操作步骤有哪些？
+
+- A、
+
+  调用实例的方法来描述动画。
+
+- B、
+
+  创建一个动画实例animation。
+
+- C、
+
+  通过动画实例的export方法导出动画数据传递给组件的animation属性。
+
+- D、
+
+  使用@keyframes创建动画。
+
+正确答案： ABCD 我的答案：ABCD得分： 4.7分
+
+*2*
+
+selector类似于CSS的选择器，支持语法有哪些？
+
+- A、
+
+  ID选择器：#the-id
+
+- B、
+
+  class选择器(可以连续指定多个)：.a-class.another-class
+
+- C、
+
+  子元素选择器：.the-parent > .the-child
+
+- D、
+
+  后代选择器：.the-ancestor .the-descendant
+
+- E、
+
+  跨自定义组件的后代选择器：.the-ancestor >>> .the-descendant
+
+- F、
+
+  多选择器的并集：#a-node, .some-other-nodes
+
+正确答案： ABCDEF 我的答案：ABCDEF得分： 4.7分
+
+*3*
+
+下面关于wx.loadFontFace()动态加载网络字体API叙述正确的是
+
+- A、
+
+  文件地址需为下载类型。'2.10.0'起支持全局生效，需在 app.js 中调用，global属性设置true。
+
+- B、
+
+  字体文件返回的contet-type参考font，格式不正确时会解析失败。
+
+- C、
+
+  字体链接必须是https(ios不支持http)
+
+- D、
+
+  字体链接必须是同源下的，或开启了cors支持，小程序的域名是servicewechat.com
+
+- E、
+
+  canvas等原生组件不支持使用接口添加的字体
+
+- F、
+
+  工具里提示Faild to load font可以忽略
+
+- G、
+
+  '2.10.0'以前仅在调用页面生效。
+
+正确答案： ABCDEFG 我的答案：ABCDEFG得分： 4.7分
+
+*4*
+
+wx.createAnimation()的timingFunction属性的合法值有哪些？
+
+- A、
+
+  ease
+
+- B、
+
+  ease-in-out
+
+- C、
+
+  step-start
+
+- D、
+
+  line
+
+正确答案： ABC 我的答案：ABC得分： 4.7分
+
+*5*
+
+设置和取消小程序窗口变化事件监听程序的API是哪两个？
+
+- A、
+
+  wx.onWindowResize()
+
+- B、
+
+  wx.offWindowResize()
+
+- C、
+
+   wx.offResize()
+
+- D、
+
+   wx.onResize()
+
+正确答案： AB 我的答案：AB得分： 4.7分
+
+*6*
+
+wx.pageScrollTo()将页面滚动到目标位置API，支持哪些定位方式？
+
+- A、
+
+  selector选择器
+
+- B、
+
+  滚动距离
+
+- C、
+
+  滚动相对距离
+
+- D、
+
+  滚动页数
+
+正确答案： AB 我的答案：AB得分： 4.7分
+
+*7*
+
+ 哪些API有transformOrigin(原点)属性 
+
+- A、
+
+   Animation.step()
+
+- B、
+
+  Animation.export()
+
+- C、
+
+  Animation.opacity()
+
+- D、
+
+  wx.createAnimation()
+
+正确答案： AD 我的答案：AD得分： 4.7分
+
+*8*
+
+开始和停止下拉刷新的API是哪两个？
+
+- A、
+
+  wx.startPullDownRefresh()
+
+- B、
+
+  wx.stopPollDownRefresh()
+
+- C、
+
+  wx.startPulldownRefresh()
+
+- D、
+
+  wx.stopPolldownRefresh()
+
+正确答案： AB 我的答案：AB得分： 4.7分
+
+答案解析：
+
+*9*
+
+wx.request()的参数属性method的合法值有哪些？
+
+- A、
+
+  GET
+
+- B、
+
+  POST
+
+- C、
+
+  PUT
+
+- D、
+
+  DELETE
+
+- E、
+
+  SELECT
+
+正确答案： ABCD 我的答案：ABCD得分： 4.7分
+
+### 三.判断题*（共6题,29.5分）*
+
+*1*
+
+wx.setTopBarText()动态设置置顶栏文字内容。只有当前小程序被置顶时能生效，如果当前小程序没有被置顶，也能调用成功，但是不会立即生效，只有在用户将这个小程序置顶后才换上设置的文字内容
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+*2*
+
+Animation.step()方法表示一组动画完成。可以在一组动画中调用任意多个动画方法，一组动画中的所有动画会同时开始，一组动画完成后才会进行下一组动画。
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+*3*
+
+wx.getMenuButtonBoundingClientRect()获取菜单按钮(右上角胶囊按钮)的布局位置信息。坐标信息以屏幕右上角为原点。
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+坐标信息，左上角为原点
+
+*4*
+
+Animation.export()方法每次调用后会清掉之前的动画操作。
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+答案解析：
+
+*5*
+
+ transformOrigin(原点)属性的值是一个表示空间坐标的字符串，坐标值用空格间隔。
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+答案解析：
+
+*6*
+
+wx.nextTick()延迟一部分操作到下一个时间片再执行。(类似于setInterval)
+
+我的答案：*×* 得分： 6.0分正确答案：*×*
+
+答案解析：
+
+类似于setTimeout
+
+## 课后作业18
+
+### 一.单选题*（共12题,56.4分）*
+
+*1*
+
+wx.uploadFile()是将本地资源上传到服务器。客户端发起一个HTTPS POST请求，content-type是什么？
+
+- A、
+
+  application/json
+
+- B、
+
+  multipart/form-data
+
+- C、
+
+  text/html
+
+- D、
+
+   application/octet-stream
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*2*
+
+wx.downloadFile()单次下载允许的最大文件尺寸是？
+
+- A、
+
+  10M
+
+- B、
+
+  20M
+
+- C、
+
+  50M
+
+- D、
+
+  200M
+
+正确答案： C 我的答案：C得分： 4.7分
+
+*3*
+
+网络API
+
+https://developers.weixin.qq.com/miniprogram/dev/api/network/request/wx.request.html
+
+选a
+
+- A、
+
+  a
+
+- B、
+
+  b
+
+正确答案： A 我的答案：A得分： 4.7分
+
+*4*
+
+创建websocket连接需要调用哪个API？
+
+- A、
+
+  wx.connectSocket()
+
+- B、
+
+  wx.onSocketOpen()
+
+- C、
+
+  wx.onSocketMessage()
+
+- D、
+
+   SocketTask.onOpen()
+
+正确答案： A 我的答案：A得分： 4.7分
+
+*5*
+
+监听mDNS服务离开的事件的API是？
+
+- A、
+
+  wx.startLocalServiceDiscovery()
+
+- B、
+
+  wx.onLocalServiceResolveFail()
+
+- C、
+
+  wx.onLocalServiceLost()
+
+- D、
+
+  wx.onLocalServiceDiscoveryStop()
+
+正确答案： C 我的答案：C得分： 4.7分
+
+*6*
+
+使用mdns首先要调用的API是？
+
+- A、
+
+  wx.onLocalServiceFound()
+
+- B、
+
+  wx.onLocalServiceDiscoveryStop()
+
+- C、
+
+   wx.stopLocalServiceDiscovery()
+
+- D、
+
+  wx.startLocalServiceDiscovery()
+
+正确答案： D 我的答案：D得分： 4.7分
+
+*7*
+
+下面哪个不是UDPSocket的操作？
+
+- A、
+
+  bind
+
+- B、
+
+  open
+
+- C、
+
+  close
+
+- D、
+
+  send
+
+正确答案： B 我的答案：B得分： 4.7分
+
+答案解析：
+
+*8*
+
+下面哪个不是UDPSocket的事件?
+
+- A、
+
+  onClose
+
+- B、
+
+  onError
+
+- C、
+
+  onMessage
+
+- D、
+
+  onListening
+
+- E、
+
+  onSend
+
+正确答案： E 我的答案：E得分： 4.7分
+
+*9*
+
+1.7.0 及以上版本，最多可以同时存在几个WebSocket连接。
+
+- A、
+
+  1
+
+- B、
+
+  5
+
+- C、
+
+  10
+
+- D、
+
+  20
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*10*
+
+wx.request()参数对象的哪个属性会对返回数据进行JSON.parse
+
+- A、
+
+  responseType
+
+- B、
+
+  dataType
+
+- C、
+
+  method
+
+- D、
+
+  header
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*11*
+
+使用wx.startLocalServiceDiscovery()不能缺少的参数对象属性是？
+
+- A、
+
+  serviceType
+
+- B、
+
+  success
+
+- C、
+
+  fail
+
+- D、
+
+  complete
+
+正确答案： A 我的答案：A得分： 4.7分
+
+*12*
+
+微信小程序使用wx.createUDPSocket创建的UDP实例是
+
+- A、
+
+  客户端
+
+- B、
+
+  服务器端
+
+- C、
+
+  既是客户端也是服务器端
+
+- D、
+
+  既不是客户端也不是服务器端
+
+正确答案： A 我的答案：A得分： 4.7分
+
+### 二.多选题*（共8题,37.6分）*
+
+*1*
+
+wx.request()、wx.downloadFile()和wx.uploadFile()的success回调函数参数都有的属性是哪些？
+
+- A、
+
+  statusCode
+
+- B、
+
+  data 
+
+- C、
+
+  header
+
+- D、
+
+  cookies
+
+正确答案： A 我的答案：A得分： 4.7分
+
+答案解析：
+
+*2*
+
+关闭websocket连接可以调用哪些API？
+
+- A、
+
+  SocketTask.close()
+
+- B、
+
+  SocketTask.onClose()
+
+- C、
+
+  wx.onSocketClose()
+
+- D、
+
+  wx.closeSocket()
+
+正确答案： AD 我的答案：AD得分： 4.7分
+
+*3*
+
+ DownloadTask.onProgressUpdate()回调函数收到的参数有哪些属性？
+
+- A、
+
+  progress
+
+- B、
+
+  totalBytesWritten
+
+- C、
+
+  totalBytesExpectedToWrite
+
+- D、
+
+  totalBytesSent
+
+- E、
+
+  totalBytesExpectedToSend
+
+正确答案： ABC 我的答案：ABC得分： 4.7分
+
+*4*
+
+哪些是wx.startLocalServiceDiscovery()的fail回调函数参数的合法值?
+
+- A、
+
+  invalid param
+
+- B、
+
+  scan task already exist
+
+- C、
+
+  task not found
+
+- D、
+
+  errMsg
+
+正确答案： AB 我的答案：AB得分： 4.7分
+
+*5*
+
+通过WebSocket连接发送数据可以调用哪些API
+
+- A、
+
+  SocketTask.onMessage()
+
+- B、
+
+  SocketTask.send()
+
+- C、
+
+  wx.onSocketMessage()
+
+- D、
+
+  wx.sendSocketMessage()
+
+正确答案： BD 我的答案：BD得分： 4.7分
+
+*6*
+
+设置监听WebSocket接受到服务器的消息事件可以调用哪些API
+
+- A、
+
+  SocketTask.onMessage()
+
+- B、
+
+  SocketTask.send()
+
+- C、
+
+  wx.onSocketMessage()
+
+- D、
+
+  wx.sendSocketMessage()
+
+正确答案： AC 我的答案：AC得分： 4.7分
+
+*7*
+
+RequestTask、DownloadTask和UploadTask都有的方法是哪些？
+
+- A、
+
+  abort()
+
+- B、
+
+  onHeadersReceived()
+
+- C、
+
+  offHeadersReceived()
+
+- D、
+
+  onProgressUpdated()
+
+- E、
+
+  offProgressUpdated()
+
+正确答案： ABC 我的答案：ABC得分： 4.7分
+
+答案解析：
+
+*8*
+
+wx.request()的success回调函数的参数属性有哪些？
+
+- A、
+
+  data
+
+- B、
+
+  statusCode
+
+- C、
+
+  header
+
+- D、
+
+  cookies
+
+- E、
+
+  reponseBody
+
+正确答案： ABCD 我的答案：ABCD得分： 4.7分
+
+### 三.判断题*（共1题,6.0分）*
+
+*1*
+
+wx.uploadFile()不仅可以上传文件，而且还可以同时上传form data到服务器。
+
+我的答案：*√* 得分： 6.0分正确答案：*√*
+
+答案解析：
+
+## 课后作业19
+
+### 一.单选题*（共17题,79.9分）*
+
+*1*
+
+下面哪种数据类型无法保存在本地缓存内？
+
+- A、
+
+  原生类型
+
+- B、
+
+  arrayBuffer
+
+- C、
+
+  Date
+
+- D、
+
+  可以通过JSON.stringify序列化的对象
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*2*
+
+
+
+数据缓存https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.setStorageSync.html
+
+
+
+周期性更新
+
+https://developers.weixin.qq.com/miniprogram/dev/framework/ability/background-fetch.html
+
+媒体-地图
+
+https://developers.weixin.qq.com/miniprogram/dev/api/media/map/wx.createMapContext.html
+
+媒体-图片
+
+https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.saveImageToPhotosAlbum.html
+
+选A
+
+- A、
+
+  a
+
+- B、
+
+  b
+
+正确答案： A 我的答案：A得分： 4.7分
+
+答案解析：
+
+*3*
+
+MapContext.includePoints()的必填的参数属性是？
+
+- A、
+
+  padding
+
+- B、
+
+  points
+
+- C、
+
+  success
+
+- D、
+
+  fail
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*4*
+
+同一个微信用户，同一个小程序storage上限为？
+
+- A、
+
+  2M
+
+- B、
+
+  5M
+
+- C、
+
+  10M
+
+- D、
+
+  20M
+
+正确答案： C 我的答案：C得分： 4.7分
+
+*5*
+
+获取已周期性更新缓存到本地的数据的API是？
+
+- A、
+
+  wx.setBackgroundFetchToken()
+
+- B、
+
+  wx.onBackgroundFetchData()
+
+- C、
+
+  wx.getBackgroundFetchToken()
+
+- D、
+
+  wx.getBackgroundFetchData()
+
+正确答案： D 我的答案：D得分： 4.7分
+
+*6*
+
+wx.getStorageInfo()的success回调函数的limitSize属性的数值单位是？
+
+- A、
+
+  bit
+
+- B、
+
+  Byte
+
+- C、
+
+  KB
+
+- D、
+
+  MB
+
+正确答案： C 我的答案：C得分： 4.7分
+
+*7*
+
+下面哪个API可以从本地相册读取图片？
+
+- A、
+
+  wx.saveImageToPhotosAlbum()
+
+- B、
+
+  wx.previewImage()
+
+- C、
+
+  wx.chooseImage()
+
+- D、
+
+  wx.getImageInfo()
+
+正确答案： C 我的答案：C得分： 4.7分
+
+答案解析：
+
+*8*
+
+微信小程序本地缓存的机制是key/value方式，单个key允许存储的最大数据长度为？
+
+- A、
+
+  64K
+
+- B、
+
+  512K
+
+- C、
+
+  1M
+
+- D、
+
+  5M
+
+正确答案： C 我的答案：C得分： 4.7分
+
+*9*
+
+下面哪个API可以支持云文件ID？
+
+- A、
+
+  wx.saveImageToPhotosAlbum()
+
+- B、
+
+  wx.previewImage()
+
+- C、
+
+  wx.compressImage()
+
+- D、
+
+  wx.getImageInfo()
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*10*
+
+MapContext.getCenterLocation()获取当前地图中心的经纬度。返回的坐标系类型是？
+
+- A、
+
+  WGS84
+
+- B、
+
+  GCJ02
+
+- C、
+
+  BD09
+
+- D、
+
+  Web mercator
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*11*
+
+下面哪个API是从客户端会话选择文件？
+
+- A、
+
+  wx.chooseImage()
+
+- B、
+
+  wx.chooseMessageFile()
+
+- C、
+
+  wx.previewImage()
+
+- D、
+
+  wx.getImageInfo()
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*12*
+
+启动周期性更新后，微信客户端会在一定的网络条件下，每隔一定时间(以上一次成功更新的时间为准)向配置的数据下载地址发起一个HTTP GET请求，数据获取到后会将整个HTTP body缓存到本地。间隔时间是多久？
+
+- A、
+
+  2小时
+
+- B、
+
+  6小时
+
+- C、
+
+  12小时
+
+- D、
+
+  24小时
+
+正确答案： C 我的答案：C得分： 4.7分
+
+*13*
+
+wx.createMapContext()使用map组件的哪个属性来获取MapContext对象？
+
+- A、
+
+  name
+
+- B、
+
+  id
+
+- C、
+
+  controls
+
+- D、
+
+  key
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*14*
+
+若要启动周期性更新功能，第一次启动小程序时，设置一个TOKEN字符串，可以跟用户态相关，会在后续微信客户端向开发者服务器请求时带上，便于给后者校验请求合法性。需要调用哪个API来做这个操作？
+
+- A、
+
+   wx.onBackgroundFetchData()
+
+- B、
+
+  wx.setBackgroundFetchToken()
+
+- C、
+
+  wx.getBackgroundFetchToken()
+
+- D、
+
+  wx.getBackgroundFetchData()
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*15*
+
+清理本地数据缓存的同步版本是哪个API
+
+- A、
+
+  wx.clearStorage()
+
+- B、
+
+  wx.clearStorageSync()
+
+- C、
+
+  wx.removeStorageSync()
+
+- D、
+
+  wx.removeStorage()
+
+正确答案： B 我的答案：B得分： 4.7分
+
+答案解析：
+
+*16*
+
+获取当前地图的倾斜角的API是
+
+- A、
+
+  MapContext.getRegion()
+
+- B、
+
+  MapContext.getRotate()
+
+- C、
+
+  MapContext.getScale()
+
+- D、
+
+  MapContext.getSkew()
+
+正确答案： D 我的答案：D得分： 4.7分
+
+*17*
+
+下面哪个API访问网络图片需要后台配置download域名才能生效
+
+- A、
+
+  wx.getImageInfo()
+
+- B、
+
+  wx.previewImage()
+
+- C、
+
+   wx.saveImageToPhotosAlbum()
+
+- D、
+
+   wx.compressImage()
+
+  
+
+正确答案： A 我的答案：A得分： 4.7分
+
+### 二.多选题*（共2题,9.4分）*
+
+*1*
+
+在开发者工具调试基础库2.10.1版本下，开发者工具调试无效，真机调试有效的API有哪些？
+
+这题要写代码调试才知道。
+
+- A、
+
+  MapContext.setCenterOffset()
+
+- B、
+
+  MapContext.getSkew()
+
+- C、
+
+  MapContext.getRotate()
+
+- D、
+
+   MapContext.getCenterLocation()
+
+正确答案： ABC 我的答案：ABC得分： 4.7分
+
+*2*
+
+下面那些API只支持本地图片文件，不支持网络图片文件？
+
+- A、
+
+  wx.saveImageToPhotosAlbum()
+
+- B、
+
+  wx.compressImage()
+
+- C、
+
+  wx.previewImage()
+
+- D、
+
+   wx.getImageInfo()
+
+正确答案： AB 我的答案：AB得分： 4.7分
+
+### 三.判断题*（共2题,10.7分）*
+
+*1*
+
+微信小程序提供两套数据缓存API，一套是同步方法，另外一套是异步方法。
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+答案解析：
+
+*2*
+
+周期性更新能够在用户未打开小程序的情况下，也能从服务器提前拉取数据，当用户打开小程序时可以更快地渲染页面，减少用户等待时间，增强在弱网条件下的可用性。
+
+我的答案：*√* 得分： 6.0分正确答案：*√*
+
+答案解析：
+
+## 课后作业20
+
+### 一.单选题*（共13题,61.1分）*
+
+*1*
+
+wx.chooseMedia()的参数sourceType的值设置为'album'时，不生效的属性是？
+
+- A、
+
+  camera
+
+- B、
+
+  count
+
+- C、
+
+  mediaType
+
+- D、
+
+  maxDuration
+
+正确答案： A 我的答案：A得分： 4.7分
+
+答案解析：
+
+*2*
+
+下面哪个视频API可以操作图片?
+
+- A、
+
+  wx.saveVideoToPhotosAlbum()
+
+- B、
+
+  wx.createVideoContext()
+
+- C、
+
+  wx.chooseVideo()
+
+- D、
+
+  wx.chooseMedia()
+
+正确答案： D 我的答案：D得分： 4.7分
+
+*3*
+
+录音API(RecorderManager)的录制的最大时长是？
+
+- A、
+
+  1分钟
+
+- B、
+
+  2分钟
+
+- C、
+
+  5分钟
+
+- D、
+
+  10分钟
+
+- E、
+
+  不限时长
+
+正确答案： D 我的答案：D得分： 4.7分
+
+*4*
+
+wx.chooseMedia()的参数对象maxDuration的缺省值是？
+
+- A、
+
+  5秒
+
+- B、
+
+  10秒
+
+- C、
+
+  30秒
+
+- D、
+
+  1分钟
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*5*
+
+下面哪个不是音频实例的监听事件？
+
+- A、
+
+  destory
+
+- B、
+
+  onWaiting
+
+- C、
+
+  onInterruptionEnd
+
+- D、
+
+  offCanplay
+
+正确答案： C 我的答案：C得分： 4.7分
+
+*6*
+
+wx.saveVideoToPhotosAlbum()支持的视频格式是
+
+- A、
+
+  mov
+
+- B、
+
+  mp4
+
+- C、
+
+  webm
+
+- D、
+
+  avi
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*7*
+
+api媒体 视频
+
+https://developers.weixin.qq.com/miniprogram/dev/api/media/video/wx.saveVideoToPhotosAlbum.html
+
+api媒体 音频
+
+https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.setInnerAudioOption.html
+
+api媒体 背景音频
+
+https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.stopBackgroundAudio.html
+
+api媒体 录音
+
+https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/wx.getRecorderManager.html
+
+选a
+
+- A、
+
+  a
+
+- B、
+
+  b
+
+正确答案： A 我的答案：A得分： 4.7分
+
+*8*
+
+录音API(RecorderManager)不支持哪种格式？
+
+- A、
+
+  mp3
+
+- B、
+
+  aac
+
+- C、
+
+  wav
+
+- D、
+
+  pcm
+
+- E、
+
+  ogg
+
+正确答案： E 我的答案：E得分： 4.7分
+
+*9*
+
+下面哪个视频API只能在ios平台生效?
+
+- A、
+
+  VideoContext.requestFullScreen()
+
+- B、
+
+  VideoContext.playbackRate()
+
+- C、
+
+  VideoContext.showStatusBar()
+
+- D、
+
+  VideoContext.sendDanmu()
+
+正确答案： C 我的答案：C得分： 4.7分
+
+答案解析：
+
+*10*
+
+InnerAudioContext实例可通过哪个API获取？
+
+- A、
+
+  wx.createAudioContext()
+
+- B、
+
+  wx.createInnerAudioContext()
+
+- C、
+
+  wx.getBackgroundAudioManager()
+
+- D、
+
+  wx.getRecorderManager()
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*11*
+
+若需要在小程序切后台后继续播放音频，需要在 app.json 中配置哪个属性？
+
+- A、
+
+  requiredBackgroundModes
+
+- B、
+
+  permission
+
+- C、
+
+  useExtendedLib
+
+- D、
+
+  preloadRule
+
+正确答案： A 我的答案：A得分： 4.7分
+
+答案解析：
+
+*12*
+
+wx.getAvailableAudioSources()获取当前支持的音频输入源，下面哪个不是音频输入源的合法值？
+
+- A、
+
+  auto  自动设置，默认使用手机麦克风，插上耳麦后自动切换使用耳机麦克风，所有平台适用
+
+- B、
+
+  mic 麦克风（没插耳麦时是手机麦克风，插耳麦时是耳机麦克风），仅限 Android
+
+  
+
+- C、
+
+  blueteethMic 耳机麦克风，仅限 iOS
+
+- D、
+
+  voice_recognition  同 mic，适用于语音识别，仅限 Android
+
+正确答案： C 我的答案：C得分： 4.7分
+
+*13*
+
+下面哪个不是录音RecorderManager的监听事件？
+
+- A、
+
+  onFrameRecorded
+
+- B、
+
+  onInterruptionBegin
+
+- C、
+
+  onInterruptionEnd
+
+- D、
+
+  onEnded
+
+正确答案： D 我的答案：D得分： 4.7分
+
+### 二.多选题*（共4题,18.8分）*
+
+*1*
+
+下面哪个不是BackgroundAudioManager的监听事件
+
+- A、
+
+  onEnded
+
+- B、
+
+  onCanplay
+
+- C、
+
+  onTimeUpdate
+
+- D、
+
+  onWaiting
+
+- E、
+
+  onPrev
+
+- F、
+
+  onResume
+
+正确答案： F 我的答案：F得分： 4.7分
+
+*2*
+
+播放背景音频BackgroundAudioManager实例必须设置的属性有
+
+- A、
+
+  src
+
+- B、
+
+  title
+
+- C、
+
+  coverImgUrl
+
+- D、
+
+  webUrl
+
+正确答案： AB 我的答案：AB得分： 4.7分
+
+*3*
+
+BackgroundAudioManager有哪些操作方法？
+
+- A、
+
+  pause
+
+- B、
+
+  play
+
+- C、
+
+  seek
+
+- D、
+
+  stop
+
+- E、
+
+  rewind
+
+- F、
+
+  showStatusBar
+
+正确答案： ABCD 我的答案：ABCD得分： 4.7分
+
+*4*
+
+BackgroundAudioManager.stop()停止背景音频播放后，如何再次启动音乐播放？
+
+- A、
+
+  BackgroundAudioManager.pause()
+
+- B、
+
+  BackgroundAudioManager.seek()
+
+- C、
+
+  BackgroundAudioManager.play()
+
+- D、
+
+  设置BackgroundAudioManager实例的src属性。
+
+正确答案： D 我的答案：D得分： 4.7分
+
+答案解析：
+
+stop会清除src属性
+
+### 三.判断题*（共4题,20.1分）*
+
+*1*
+
+随着阵列麦克风技术的发展，wx.getRecorderManager()可以获取多个录音管理器的实例。
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+录音管理器全局唯一的。
+
+*2*
+
+InnerAudioContext.seek(number position)，跳转到指定位置，跳转的时间，单位秒。精确到整数，即支持秒级别精确度
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+ms，小数点后三位，毫秒级别
+
+*3*
+
+监听录音因为受到系统占用而被中断开始事件。以下场景会触发RecorderManager.onInterruptionBegin()：微信语音聊天、微信视频聊天。
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+*4*
+
+InnerAudioContext.stop()的作用是停止音频播放。停止后的音频再播放会从头开始播放  
+
+我的答案：*√* 得分： 6.0分正确答案：*√*
+
+## 课后作业21
+
+### 一.单选题*（共5题,23.5分）*
+
+*1*
+
+CameraContext.startRecord()最长可录制视频多久？
+
+- A、
+
+  10s
+
+- B、
+
+  30s
+
+- C、
+
+  1m
+
+- D、
+
+  只受限于相机存储容量
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*2*
+
+CameraContext.setZoom()用于设置摄像头缩放级别，缩放级别zoom如何设置
+
+- A、
+
+  zoom可设置high,medium,high三个级别
+
+- B、
+
+  zoom支持无极缩放，zoom为大于零的正整数。
+
+- C、
+
+  zoom 可取小数，精确到小数后一位。maxZoom 可在 camera组件的bindinitdone 返回值中获取。
+
+- D、
+
+  zoom仅在ios平台生效。
+
+正确答案： C 我的答案：C得分： 4.7分
+
+*3*
+
+简易双向绑定
+
+https://developers.weixin.qq.com/miniprogram/dev/framework/view/two-way-bindings.html
+
+API媒体 相机
+
+https://developers.weixin.qq.com/miniprogram/dev/api/media/camera/wx.createCameraContext.html
+
+API媒体 富文本
+
+https://developers.weixin.qq.com/miniprogram/dev/api/media/editor/EditorContext.html
+
+API媒体 音视频合成
+
+https://developers.weixin.qq.com/miniprogram/dev/api/media/video-processing/wx.createMediaContainer.html
+
+选A
+
+- A、
+
+  a
+
+- B、
+
+  b
+
+正确答案： A 我的答案：A得分： 4.7分
+
+*4*
+
+下面小程序双向绑定有效的是？
+
+- A、
+
+  <input model:value= 值为 {{value}} />
+
+- B、
+
+  <input model:value= {{ a + b }} />
+
+- C、
+
+  <input model:value= {{value}} />
+
+- D、
+
+  <input model:value= {{ a.b }} />
+
+  
+
+正确答案： C 我的答案：C得分： 4.7分
+
+*5*
+
+小程序双向绑定正确的是？
+
+- A、
+
+  <input wx:value= {{value}} />
+
+- B、
+
+  <input model:value= {{value}} />
+
+- C、
+
+  <input value= {{value}} />
+
+- D、
+
+  <input bind:value= {{value}} />
+
+正确答案： B 我的答案：B得分： 4.7分
+
+### 二.多选题*（共5题,23.5分）*
+
+*1*
+
+EditorContext.getContents() 获取编辑器内容，可以获取哪些信息。
+
+- A、
+
+  html 带标签的HTML内容
+
+- B、
+
+  text 纯文本内容
+
+- C、
+
+  delta 表示内容的delta对象
+
+- D、
+
+  richtext 富文本
+
+正确答案： ABC 我的答案：ABC得分： 4.7分
+
+*2*
+
+EditorContext.format()支持的样式有
+
+- A、
+
+  bold
+
+- B、
+
+  underline
+
+- C、
+
+  indent
+
+- D、
+
+  wordWrap
+
+- E、
+
+  opacity
+
+正确答案： ABCD 我的答案：ABCD得分： 4.7分
+
+*3*
+
+CameraContext.takePhoto()用来拍摄照片，叙述正确的是
+
+- A、
+
+  安卓生成的是jpg图片格式
+
+- B、
+
+  ios生成的是png格式
+
+- C、
+
+  成像质量分三档可设置，low，normal和high
+
+- D、
+
+  照片最高分辨率可达到手机摄像头的分辨率。
+
+正确答案： ABC 我的答案：ABC得分： 4.7分
+
+答案解析：
+
+这是从camera视频流抓取的照片，不是拍照，高质量大概是1280p视频的效果。
+
+*4*
+
+EditorContext支持的方法有哪些？
+
+- A、
+
+  EditorContext.format() 修改样式
+
+- B、
+
+  EditorContext.insertImage()插入图片
+
+- C、
+
+  EditorContext.blur() 编辑器失焦，同时收起键盘
+
+- D、
+
+  EditorContext.setContents() 初始化编辑器内容，html和delta同时存在时仅delta生效
+
+- E、
+
+  EditorContext.getContents() 清空编辑器内容
+
+正确答案： ABCD 我的答案：ABCD得分： 4.7分
+
+答案解析：
+
+*5*
+
+CameraContext.startRecord()和CameraContext.stopRecord()都有回调函数，都可以获取拍摄视频的哪项信息？
+
+- A、
+
+  tempVideoPath 视频的文件的临时路径 (本地路径)
+
+- B、
+
+  tempThumbPath 封面图片文件的临时路径 (本地路径)
+
+- C、
+
+  duration 视频长度
+
+- D、
+
+  compressed 视频是否压缩
+
+正确答案： AB 我的答案：AB得分： 4.7分
+
+### 三.判断题*（共11题,53.0分）*
+
+*1*
+
+wx.createMediaContainer()是异步函数，需要在回调中获取MediaContainer。
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+是同步函数
+
+*2*
+
+MediaContainer.export()当音频和视频轨道时长不同时，以时长最短的输出。
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+以视频轨道时长输出
+
+*3*
+
+CameraContext.onCameraFrame()获取Camera实时帧数据回调值的data数据类型是base64，可以直接赋值给image的src，显示图片内容。
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+ArrayBuffer类型
+
+*4*
+
+MediaContainer.extractDataSource()通过success回调函数获取视频文件的音视频轨道，回调参数的tracks属性，tracks是数组类型，包含音频轨道和视频轨道。
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+答案解析：
+
+*5*
+
+使用wx.createCameraContext()成功获取相机实例CameraContext的一个前提条件是，wxml布局文件中要有Camera组件。
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+*6*
+
+MediaTrack 音频或视频轨道，可以对轨道进行一些操作，可通过 MediaContainer.extractDataSource 返回。
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+答案解析：
+
+*7*
+
+使用CameraFrameListener需在 camera 组件属性中指定 frame-size
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+*8*
+
+EditorContext 通过 id 跟一个 rich-text 组件绑定，操作对应的 editor 组件
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+editor
+
+*9*
+
+在 WXML 中，普通的属性的绑定是双向的
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+单向
+
+*10*
+
+MediaContainer：音视频处理容器，可以进行音频混音等操作可通过 wx.createMediaContainer 创建。调试基础库2.11.0下可以在模拟器进行调试。
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+2.11.0不能模拟器调试。
+
+*11*
+
+EditorContext 实例，可通过 wx.createEditor 获取。
+
+我的答案：*×* 得分： 6.0分正确答案：*×*
+
+答案解析：
+
+[wx.createSelectorQuery](https://developers.weixin.qq.com/miniprogram/dev/api/wxml/wx.createSelectorQuery.html)
+
+## 课后作业22
+
+### 一.单选题*（共9题,42.3分）*
+
+*1*
+
+api媒体 视频解码器
+
+https://developers.weixin.qq.com/miniprogram/dev/api/media/video-decoder/wx.createVideoDecoder.html
+
+api媒体 画面录制器
+
+https://developers.weixin.qq.com/miniprogram/dev/api/media/media-recorder/wx.createMediaRecorder.html
+
+api位置
+
+https://developers.weixin.qq.com/miniprogram/dev/api/location/wx.stopLocationUpdate.html
+
+选A
+
+- A、
+
+  a
+
+- B、
+
+  b
+
+正确答案： A 我的答案：A得分： 4.7分
+
+*2*
+
+创建视频解码器，可逐帧获取解码后的数据的api是哪一个？
+
+- A、
+
+  wx.createMediaRecorder()
+
+- B、
+
+  wx.createVideoDecoder()
+
+- C、
+
+  wx.createMediaContainer()
+
+- D、
+
+  wx.createCameraContext()
+
+- E、
+
+  wx.getRecorderManager()
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*3*
+
+VideoDecoder.start(Object object)开始解码，下面对参数属性mode叙述正确的是
+
+- A、
+
+   mode是需要解码的视频源文件，只支持本地路径
+
+- B、
+
+  mode是必填属性
+
+- C、
+
+  mode的值设置为0，按 pts 解码
+
+- D、
+
+  mode的值范围是：0，1，2，3
+
+正确答案： C 我的答案：C得分： 4.7分
+
+*4*
+
+wx.getLocation(Object object)可以设置哪个参数属性开启高精度定位？
+
+- A、
+
+  type
+
+- B、
+
+  highAccuracyExpireTime
+
+- C、
+
+  isHighAccuracy
+
+- D、
+
+  verticalAccuracy
+
+正确答案： C 我的答案：C得分： 4.7分
+
+*5*
+
+wx.createMediaRecorder(Object canvas, Object options)的options参数videoBitsPerSecond属性的缺省值是
+
+- A、
+
+  300
+
+- B、
+
+  600
+
+- C、
+
+  1000
+
+- D、
+
+  3000
+
+正确答案： C 我的答案：C得分： 4.7分
+
+答案解析：
+
+*6*
+
+VideoDecoder没有下面哪个方法？
+
+- A、
+
+  start()
+
+- B、
+
+  seek()
+
+- C、
+
+  remove()
+
+- D、
+
+  getFrameData()
+
+- E、
+
+  export()
+
+正确答案： E 我的答案：E得分： 4.7分
+
+*7*
+
+开启小程序进入前台时接收位置消息，使用哪个API？
+
+- A、
+
+  wx.startLocationUpdateBackground()
+
+- B、
+
+  wx.startLocationUpdate()
+
+- C、
+
+  wx.openLocation()
+
+- D、
+
+  wx.getLocation()
+
+- E、
+
+  wx.chooseLocation()
+
+正确答案： B 我的答案：B得分： 4.7分
+
+答案解析：
+
+*8*
+
+ MediaRecorder不具备的方法是哪个？
+
+- A、
+
+  destory()
+
+- B、
+
+  requestFrame()
+
+- C、
+
+  resume()
+
+- D、
+
+  seek()
+
+- E、
+
+  start()
+
+正确答案： D 我的答案：D得分： 4.7分
+
+答案解析：
+
+*9*
+
+使用微信内置地图查看位置，使用下面哪个API？
+
+- A、
+
+  wx.startLocationUpdateBackground()
+
+- B、
+
+  wx.startLocationUpdate()
+
+- C、
+
+  wx.openLocation()
+
+- D、
+
+  wx.getLocation()
+
+- E、
+
+  wx.chooseLocation()
+
+正确答案： C 我的答案：C得分： 4.7分
+
+### 二.多选题*（共7题,32.9分）*
+
+*1*
+
+使用wx.startLocationUpdateBackground(Object object) ，小程序在运行中或进入后台均可接受位置消息变化，使用时需要如下哪些操作？
+
+- A、
+
+  在app.json中配置requiredBackgroundModes: ['location']后使用
+
+- B、
+
+  需配置地理位置用途说明。app.json的permission的scope.userLocation的desc，设置请求用户同意定位的说明字符串。
+
+- C、
+
+  需引导用户开启授权
+
+- D、
+
+  需设置gps类型为gcj02（火星坐标系）
+
+正确答案： ABC 我的答案：ABC得分： 4.7分
+
+*2*
+
+wx.chooseLocation(Object object)回调参数有哪些属性
+
+- A、
+
+  name  位置名称
+
+- B、
+
+  address 详细地址
+
+- C、
+
+  latitude  纬度，浮点数，范围为-90~90，负数表示南纬。使用 gcj02 国测局坐标
+
+  
+
+- D、
+
+  longitude 经度，浮点数，范围为-180~180，负数表示西经。使用 gcj02 国测局坐标系
+
+- E、
+
+  altitude  number 高度，单位 m
+
+正确答案： ABCD 我的答案：ABCD得分： 4.7分
+
+*3*
+
+wx.openLocation(Object object)参数对象的必填属性有哪些？
+
+- A、
+
+  latitude  纬度，范围为-90~90，负数表示南纬。使用 gcj02 国测局坐标系
+
+- B、
+
+  longitude  经度，范围为-180~180，负数表示西经。使用 gcj02 国测局坐标系
+
+- C、
+
+  scale  缩放比例，范围5~18
+
+- D、
+
+  name  位置名
+
+- E、
+
+  address  地址的详细说明
+
+正确答案： AB 我的答案：AB得分： 4.7分
+
+*4*
+
+MediaRecorder.on(string eventName, function callback)监听stop事件，回调参数有下列哪些属性？
+
+- A、
+
+  tempFilePath
+
+- B、
+
+  duration
+
+- C、
+
+  fileSize
+
+- D、
+
+  videoBitsPerSecond
+
+- E、
+
+  fps
+
+正确答案： ABC 我的答案：ABC得分： 4.7分
+
+*5*
+
+常见的gps坐标系有哪些？
+
+- A、
+
+  UTM(墨卡托)
+
+- B、
+
+  BD09(百度坐标)
+
+- C、
+
+  GCJ-02（火星坐标系)
+
+- D、
+
+  WGS84(GPS坐标)
+
+正确答案： ABCD 我的答案：ABCD得分： 4.7分
+
+*6*
+
+MediaRecorder.on(string eventName, function callback)，可以监听哪些事件？
+
+- A、
+
+  start
+
+- B、
+
+  stop
+
+- C、
+
+  resume
+
+- D、
+
+  pause
+
+- E、
+
+  requestFrame
+
+正确答案： AB 我的答案：AB得分： 4.7分
+
+*7*
+
+wx.onLocationChange(function callback)回调参数有哪些属性？
+
+- A、
+
+  latitude  纬度，范围为 -90~90，负数表示南纬  
+
+- B、
+
+  longitude 经度，范围为 -180~180，负数表示西经 
+
+- C、
+
+  speed  速度，单位 m/s  
+
+- D、
+
+  accuracy  位置的精确度 
+
+- E、
+
+  altitude  高度，单位 m 
+
+- F、
+
+  verticalAccuracy  垂直精度，单位 m（Android 无法获取，返回 0）
+
+- G、
+
+  horizontalAccuracy 水平精度，单位 m
+
+正确答案： ABCDEFG 我的答案：ABCDEFG得分： 4.7分
+
+### 三.判断题*（共5题,24.8分）*
+
+*1*
+
+wx.getLocation(Object object)用于获取当前的地理位置、速度。当用户离开小程序后，此接口无法调用。默认返回wgs84类型的gps坐标。
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+*2*
+
+VideoDecoder.seek(number position)，position 跳转的解码位置，单位 ms
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+*3*
+
+小程序进入后台，就无法获取定位信息。
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+wx.startLocationUpdateBackground(Object object)
+
+
+
+*4*
+
+VideoDecoder.getFrameData()获取下一帧解码数据，回调参数的data属性是ArrayBuffer类型，内容是视频帧数据，不是常见的图片格式。
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+*5*
+
+wx.createMediaRecorder(Object canvas, Object options)，创建 canvas 画面录制器，可逐帧录制在2D canvas上渲染的画面并导出视频文件
+
+我的答案：*×* 得分： 6.0分正确答案：*×*
+
+答案解析：
+
+webgl
+
+## 课后作业23
+
+### 一.单选题*（共10题,45.0分）*
+
+*1*
+
+Canvas.toDataURL()返回的图片数据类型是哪种？
+
+- A、
+
+  Uint8ClampedArray
+
+- B、
+
+  base64
+
+- C、
+
+  rgba(255, 0, 0, 0.3)
+
+- D、
+
+  jpeg/png
+
+正确答案： B 我的答案：B得分： 4.5分
+
+*2*
+
+CanvasGradient.addColorStop()用来添加颜色的渐变点，为CanvasRenderingContext2D设置填充渐变色的方法是？
+
+- A、
+
+  ctx.setFillStyle(canvasGradient)
+
+- B、
+
+  ctx.fillStyle=canvasGradient
+
+- C、
+
+  ctx.setStrokeStyle(canvasGradient)
+
+- D、
+
+  ctx.strokeStyle=canvasGradient
+
+正确答案： B 我的答案：B得分： 4.5分
+
+答案解析：
+
+
+CanvasContext 使用 ctx.setFillStyle(canvasGradient)
+
+CanvasRenderingContext2D使用ctx.fillStyle=canvasGradient
+
+*3*
+
+创建离屏canvas实例的API是哪一个？
+
+- A、
+
+  wx.createOffscreenCanvas()
+
+- B、
+
+  wx.createCanvasContext()
+
+- C、
+
+  wx.canvasToTempFilePath()
+
+- D、
+
+  wx.canvasGetImageData()
+
+正确答案： A 我的答案：A得分： 4.5分
+
+*4*
+
+wx.canvasPutImageData()将像素数据绘制到画布。参数对象data属性的数据类型是？
+
+- A、
+
+  Uint8ClampedArray
+
+- B、
+
+  Int8Array
+
+- C、
+
+  Uint32Array
+
+- D、
+
+  Float64Array
+
+正确答案： A 我的答案：A得分： 4.5分
+
+*5*
+
+获取CanvasRenderingContext2D对象的方法是？
+
+- A、
+
+  Canvas.getContext('2d')
+
+- B、
+
+  Canvas.getContext('webgl')
+
+- C、
+
+  OffscreenCanvas.getContext('webgl')
+
+- D、
+
+  wx.createCanvasContext(）
+
+正确答案： A 我的答案：A得分： 4.5分
+
+*6*
+
+Canvas.createImage()用于创建一个图片对象 Image。Image的onload是图片加载完成后的回调函数，正确定义onload的方法是？
+
+- A、
+
+  img.onload = (res)=>{console.log(res)}
+
+- B、
+
+  img.onload(res=>{console.log(res)})
+
+- C、
+
+  img.onLoad = (res)=>{console.log(res)}
+
+- D、
+
+  img.onLoad(res=>{console.log(res)})
+
+正确答案： A 我的答案：A得分： 4.5分
+
+答案解析：
+
+这个Image是html的img标签，事件绑定的语法规则也是es5规范。
+
+*7*
+
+wx.canvasToTempFilePath()把当前画布指定区域的内容导出生成指定大小的图片。在draw()回调里调用该方法才能保证图片导出成功。参数对象不需要的属性是？
+
+- A、
+
+  x
+
+- B、
+
+  width
+
+- C、
+
+  destWidth
+
+- D、
+
+  quality
+
+- E、
+
+  color
+
+正确答案： E 我的答案：E得分： 4.5分
+
+*8*
+
+Canvas.requestAnimationFrame()，在下次进行重绘时执行回调方法，它的刷新频率是多少。
+
+- A、
+
+  24fps  
+
+- B、
+
+  30fps
+
+- C、
+
+  60fps
+
+- D、
+
+  只看设备足够快，无上限。
+
+正确答案： C 我的答案：C得分： 4.5分
+
+*9*
+
+api转发
+
+https://developers.weixin.qq.com/miniprogram/dev/api/share/wx.updateShareMenu.html
+
+api画布
+
+https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.createOffscreenCanvas.html
+
+选A
+
+
+
+- A、
+
+  a
+
+- B、
+
+  b
+
+正确答案： A 我的答案：A得分： 4.5分
+
+*10*
+
+wx.canvasGetImageData()获取canvas区域的像素数据，参数对象哪个属性不是必须的？
+
+- A、
+
+  data
+
+- B、
+
+  y
+
+- C、
+
+  width
+
+- D、
+
+  canvasId
+
+正确答案： A 我的答案：A得分： 4.5分
+
+答案解析：
+
+### 二.多选题*（共6题,27.0分）*
+
+*1*
+
+wx.updateShareMenu()更改转发动态消息需要设置的属性有哪些？
+
+- A、
+
+  withShareTicket
+
+- B、
+
+  isUpdatableMessage
+
+- C、
+
+  activityId
+
+- D、
+
+  toDoActivityId
+
+- E、
+
+  templateInfo
+
+正确答案： BCE 我的答案：BCE得分： 4.5分
+
+答案解析：
+
+如果templateInfo是空对象的话，缺省值是1/3，不能是null和undefined。
+
+*2*
+
+分享卡片能携带shareTicket的条件有哪些？
+
+- A、
+
+  分享前调用wx.showShareMenu
+
+- B、
+
+  调用wx.showShareMenu()时设置参数对象的withShareTicket属性为true
+
+  
+
+- C、
+
+  分享到微信群
+
+- D、
+
+  只能使用<button open-type="share">分享</button>方式分享。
+
+正确答案： ABC 我的答案：ABC得分： 4.5分
+
+*3*
+
+下面哪些方法可以开启或发起分享转发功能？
+
+- A、
+
+  编写页面的onShareAppMessage()回调
+
+- B、
+
+  <button open-type="share">分享</button>
+
+- C、
+
+   wx.showShareMenu()
+
+- D、
+
+  wx.updateShareMenu()
+
+正确答案： ABC 我的答案：ABC得分： 4.5分
+
+*4*
+
+wx.getShareInfo()获取转发详情，回调结果有哪些属性？
+
+- A、
+
+  errMsg 错误信息 
+
+- B、
+
+  encryptedData 包括敏感数据在内的完整转发信息的加密数据
+
+- C、
+
+  iv 加密算法的初始向量
+
+- D、
+
+  cloudID 敏感数据对应的云 ID，开通云开发的小程序才会返回，可通过云调用直接获取开放数据
+
+正确答案： ABCD 我的答案：ABCD得分： 4.5分
+
+*5*
+
+当用户将小程序转发到任一群聊之后，此转发卡片在群聊中被其他用户打开时，可以在哪些回调中获取到一个 shareTicket。
+
+- A、
+
+  App.onLaunch
+
+- B、
+
+  App.onShow
+
+- C、
+
+  Page.onLoad
+
+- D、
+
+  Page.onShow
+
+正确答案： AB 我的答案：AB得分： 4.5分
+
+答案解析：
+
+*6*
+
+wx.hideShareMenu()可以关闭下面哪些开启的分享功能
+
+- A、
+
+  wx.showShareMenu()
+
+- B、
+
+  编写Page.onShareAppMessage()回调开启的分享功能
+
+- C、
+
+  <button open-type="share">分享</button>
+
+- D、
+
+  wx.updateShareMenu()
+
+正确答案： AB 我的答案：AB得分： 4.5分
+
+### 三.判断题*（共6题,28.0分）*
+
+*1*
+
+Canvas 2D API 的接口 Path2D 用来声明路径，此路径稍后会被CanvasRenderingContext2D 对象使用。CanvasRenderingContext2D 接口的 路径方法 也存在于 Path2D 这个接口中，允许你在 canvas 中根据需要创建可以保留并重用的路径。
+
+调试基础库2.11.1版本的Path2D的接口方法如下图。
+
+![path2D 原型方法.png](md_img/ebc6042badcbe2e0e35be54f0b557e7a.png)
+
+我的答案：*√* 得分： 4.5分正确答案：*√*
+
+*2*
+
+wx.createCanvasContext()和CanvasContext对象的一系列接口方法已经废弃，新版的canvas2D接口与 Web 一致。
+
+我的答案：*√* 得分： 4.5分正确答案：*√*
+
+*3*
+
+通过 Canvas.getContext('2d') 接口可以获取 CanvasRenderingContext2D 对象，实现了 HTML Canvas 2D Context 定义的属性、方法。
+
+HTML Canvas 2D Context 是W3C发布的正式推荐标准，该规范定义了HTML canvas元素的2D上下文。2D上下文为在canvas上绘制和操纵图形提供了对象、方法及属性信息。
+
+https://www.runoob.com/tags/ref-canvas.html 可参考菜鸟教程的简要文档。
+
+https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D MDN中文文档
+
+
+
+![CanvasRanderingContext2D prototype1.png](md_img/8be0d84214a57e373f324ebb7a77c006.png)
+
+![CanvasRanderingContext2D prototype2.png](md_img/2d8498c42e76ae061b303e1eaac897bd.png)
+
+
+
+我的答案：*√* 得分： 4.5分正确答案：*√*
+
+答案解析：
+
+*4*
+
+Canvas.createImageData()创建一个 ImageData 对象，支持在 2D Canvas 和 WebGL Canvas 下使用, 但不支持混用 2D 和 WebGL 的方法。
+
+我的答案：*×* 得分： 4.5分正确答案：*×*
+
+答案解析：
+
+仅支持在 2D Canvas 中使用
+
+*5*
+
+通过 Canvas.getContext('webgl') 或 OffscreenCanvas.getContext('webgl') 接口可以获取 WebGLRenderingContext 对象，实现了 WebGL 1.0 定义的所有属性、方法、常量。
+
+WebGL（全写Web Graphics Library）是一种3D绘图协议，这种绘图技术标准允许把JavaScript和OpenGL ES 2.0结合在一起，通过增加OpenGL ES 2.0的一个JavaScript绑定，WebGL可以为HTML5 Canvas提供硬件3D加速渲染，这样Web开发人员就可以借助系统显卡来在浏览器里更流畅地展示3D场景和模型了。
+
+https://www.w3cschool.cn/webgl/ 可参考W3Cschool上webgl中文版文档。
+
+使用api直接编写webgl相对复杂，通常使用three.js、egret.js等引擎开发。
+
+
+
+https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API/Tutorial MDN 中文文档
+
+我的答案：*√* 得分： 4.5分正确答案：*√*
+
+答案解析：
+
+*6*
+
+CanvasRenderingContext2D 的 drawImage 方法 2.10.0 起支持传入通过 SelectorQuery 获取的 video 对象
+
+我的答案：*√* 得分： 5.5分正确答案：*√*
+
+## 课后作业24
+
+### 一.单选题*（共7题,32.9分）*
+
+*1*
+
+wx.checkSession()用于检查登录态是否过期。通过 wx.login 接口获得的用户登录态拥有一定的时效性。用户越久未使用小程序，用户登录态越有可能失效。登录的时效为多久？
+
+- A、
+
+  30分钟
+
+- B、
+
+  4小时
+
+- C、
+
+  72小时
+
+- D、
+
+  具体时效逻辑由微信维护，对开发者透明。
+
+正确答案： D 我的答案：D得分： 4.7分
+
+*2*
+
+判断文件/目录是否存在的api是？
+
+- A、
+
+  access
+
+- B、
+
+  appendFile
+
+- C、
+
+  getFileInfo
+
+- D、
+
+  stat
+
+正确答案： A 我的答案：A得分： 4.7分
+
+*3*
+
+wx.getAccountInfoSync()用于获取当前帐号信息。线上小程序版本号仅支持在正式版小程序中获取，开发版和体验版中无法获取。下面哪个不是envVersion 小程序版本类型的有效值
+
+- A、
+
+  develop 开发版 
+
+- B、
+
+  trial  体验版 
+
+- C、
+
+  release 正式版
+
+- D、
+
+  publish 发布版
+
+正确答案： D 我的答案：D得分： 4.7分
+
+*4*
+
+api文件
+
+https://developers.weixin.qq.com/miniprogram/dev/api/file/wx.saveFileToDisk.html
+
+api开放接口
+
+https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/wx.login.html
+
+选a
+
+- A、
+
+  a
+
+- B、
+
+  b
+
+正确答案： A 我的答案：A得分： 4.7分
+
+*5*
+
+wx.login()用于调用接口获取登录凭证（code），code有效期多久？
+
+- A、
+
+  3分钟
+
+- B、
+
+  5分钟
+
+- C、
+
+  30分钟
+
+- D、
+
+  60分钟
+
+正确答案： B 我的答案：B得分： 4.7分
+
+*6*
+
+保存文件系统的文件到用户磁盘，仅在 PC 端支持的API是哪一个？
+
+- A、
+
+  wx.saveFileToDisk()
+
+- B、
+
+  wx.saveFile()
+
+- C、
+
+  FileSystemManager.writeFile()
+
+- D、
+
+  FileSystemManager.saveFile()
+
+正确答案： A 我的答案：A得分： 4.7分
+
+*7*
+
+读取目录内文件列表的api是哪一个？
+
+- A、
+
+  FileSystemManager.getSavedFileList()
+
+- B、
+
+  FileSystemManager.readdir()
+
+- C、
+
+  wx.getSavedFileList()
+
+- D、
+
+  FileSystemManager.getFileInfo()
+
+正确答案： B 我的答案：B得分： 4.7分
+
+### 二.多选题*（共4题,18.8分）*
+
+*1*
+
+FileSystemManager.unzip()解压文件，必填的属性有哪些？
+
+- A、
+
+  zipFilePath 源文件路径，支持本地路径, 只可以是 zip 压缩文件
+
+- B、
+
+  targetPath 目标目录路径, 支持本地路径
+
+- C、
+
+  fileType 文件类型
+
+- D、
+
+  size 文件大小
+
+正确答案： AB 我的答案：AB得分： 4.7分
+
+*2*
+
+删除文件的API有哪些？
+
+都有什么区别呢，我都分不出来啊。值得尝试区分一下。
+
+- A、
+
+  wx.removeSavedFile()
+
+- B、
+
+  FileSystemManager.removeSavedFile()
+
+- C、
+
+  FileSystemManager.unlink()
+
+- D、
+
+  FileSystemManager.rmdir()
+
+正确答案： ABC 我的答案：ABC得分： 4.7分
+
+*3*
+
+获取文件信息的api有哪些？
+
+- A、
+
+  wx.getSavedFileInfo()
+
+- B、
+
+  wx.getFileInfo()
+
+- C、
+
+  FileSystemManager.getFileInfo()
+
+- D、
+
+  FileSystemManager.readFile()
+
+正确答案： ABC 我的答案：ABC得分： 4.7分
+
+*4*
+
+FileSystemManager.writeFile()写文件，encoding属性的合法值有哪些？
+
+- A、
+
+  ascii
+
+- B、
+
+  base64
+
+- C、
+
+  binary
+
+- D、
+
+  hex
+
+- E、
+
+  utf8
+
+- F、
+
+  ucs2
+
+- G、
+
+  gbk
+
+正确答案： ABCDEF 我的答案：ABCDEF得分： 4.7分
+
+### 三.判断题*（共10题,48.3分）*
+
+*1*
+
+FileSystemManager.mkdir()用于创建目录，只能逐级创建目录。
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+属性recusive设置true，可以递归创建上级目录
+
+*2*
+
+FileSystemManager.rmdir()删除目录，无法删除不为空的目录，会报错。
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+属性recusive设置为true时，可删除有文件的目录
+
+*3*
+
+FileSystemManager的方法有两套，一套是同步版本，一套是异步版本。异步版本的方法名称后面多了四个小写字母 sync。
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+同步的多字母
+
+*4*
+
+wx.navigateToMiniProgram()用于打开另一个小程序
+
+从2020年4月24日起，使用跳转其他小程序功能将无需在全局配置中声明跳转名单，调用此接口时将不再校验所跳转的 AppID 是否在 navigateToMiniProgramAppIdList 中。
+
+，跳转其他小程序将不再受数量限制，
+
+
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+*5*
+
+wx.navigateBackMiniProgram()用于返回到上一个小程序。只有在当前小程序是被其他小程序打开时可以调用成功。无法传递参数给上一个小程序。
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+extraData属性可以设置参数
+
+*6*
+
+wx.saveFile()保存文件到本地。saveFile 会把临时文件移动，因此调用成功后传入的 tempFilePath 将不可用。
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+*7*
+
+FileSystemManager.readFile()读取本地文件内容，如果不设置encoding属性，则以ascii格式读取文件内容
+
+
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+binary
+
+*8*
+
+FileSystemManager.stat()获取文件 Stats 对象，当path是一个路径时，无法递归获取目录下每个文件的stats信息
+
+我的答案：*×* 得分： 4.7分正确答案：*×*
+
+答案解析：
+
+属性recusive设置成true时，可递归获取路径下的每个文件信息
+
+*9*
+
+FileSystemManager的系列方法在本地调试库2.11.1版本下，只能使用success回调，不返回promise，不支持async/await。
+
+我的答案：*√* 得分： 4.7分正确答案：*√*
+
+*10*
+
+本地文件存储的大小限制为 50M
+
+我的答案：*×* 得分： 6.0分正确答案：*×*
+
+答案解析：
+
+10M
+
+## 课后作业25
+
+### 一.单选题*（共11题,47.3分）*
+
+*1*
+
+wx.checkSession()用于检查登录态是否过期。通过 wx.login 接口获得的用户登录态拥有一定的时效性。用户越久未使用小程序，用户登录态越有可能失效。登录的时效为多久？
+
+- A、
+
+  30分钟
+
+- B、
+
+  4小时
+
+- C、
+
+  72小时
+
+- D、
+
+  具体时效逻辑由微信维护，对开发者透明。
+
+正确答案： D 我的答案：D得分： 4.3分
+
+*2*
+
+下面哪项不是wx.chooseAddress()返回的属性？
+
+- A、
+
+  userName
+
+- B、
+
+  countyName
+
+- C、
+
+  telNumber
+
+- D、
+
+  detailInfo
+
+- E、
+
+  openId
+
+正确答案： E 我的答案：E得分： 4.3分
+
+*3*
+
+wx.getUserInfo()获取用户信息，回调结果的userInfo属性不包含哪项信息？
+
+- A、
+
+  nickName
+
+- B、
+
+  openId
+
+- C、
+
+  gender
+
+- D、
+
+  city
+
+正确答案： B 我的答案：B得分： 4.3分
+
+*4*
+
+开放接口
+
+https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/wx.login.html
+
+选a
+
+- A、
+
+  a
+
+- B、
+
+  b
+
+正确答案： A 我的答案：A得分： 4.3分
+
+*5*
+
+userInfo用户信息数据类型的avatarUrl属性记录的是用户头像Url，最后一个数值代表正方形头像大小，有几种值可选，默认值是哪一个？
+
+- A、
+
+  0
+
+- B、
+
+  46
+
+- C、
+
+  64
+
+- D、
+
+  96
+
+- E、
+
+  132
+
+正确答案： E 我的答案：E得分： 4.3分
+
+*6*
+
+wx.chooseInvoiceTitle()选择用户的发票抬头。调用前需要用户授权?
+
+- A、
+
+  scope.invoiceTitle
+
+- B、
+
+  scope.record
+
+- C、
+
+  scope.invoice
+
+- D、
+
+  scope.userInfo
+
+正确答案： A 我的答案：A得分： 4.3分
+
+*7*
+
+wx.getUserInfo()获取用户信息，调用前需要获取的授权是？
+
+- A、
+
+  scope.userInfo
+
+- B、
+
+  scope.userLocation
+
+- C、
+
+  scope.record
+
+- D、
+
+  scope.werun
+
+正确答案： A 我的答案：A得分： 4.3分
+
+*8*
+
+wx.chooseAddress()取用户收货地址。调起用户编辑收货地址原生界面，并在编辑完成后返回用户选择的地址。调用前需要用户授权？
+
+- A、
+
+  scope.address
+
+- B、
+
+  scope.userInfo
+
+- C、
+
+  scope.invoiceTitle
+
+- D、
+
+  scope.writePhotosAlbum
+
+正确答案： A 我的答案：A得分： 4.3分
+
+*9*
+
+wx.getAccountInfoSync()用于获取当前帐号信息。线上小程序版本号仅支持在正式版小程序中获取，开发版和体验版中无法获取。下面哪个不是envVersion 小程序版本类型的有效值
+
+- A、
+
+  develop 开发版 
+
+- B、
+
+  trial  体验版 
+
+- C、
+
+  release 正式版
+
+- D、
+
+  publish 发布版
+
+正确答案： D 我的答案：D得分： 4.3分
+
+*10*
+
+wx.login()用于调用接口获取登录凭证（code），code有效期多久？
+
+- A、
+
+  3分钟
+
+- B、
+
+  5分钟
+
+- C、
+
+  30分钟
+
+- D、
+
+  60分钟
+
+正确答案： B 我的答案：B得分： 4.3分
+
+*11*
+
+wx.chooseInvoice()选择用户已有的发票，回调参数的invoiceInfo属性没有的信息项是？
+
+- A、
+
+  card_id
+
+- B、
+
+  encrypt_code
+
+- C、
+
+  appId
+
+- D、
+
+  openId
+
+正确答案： D 我的答案：D得分： 4.3分
+
+### 二.多选题*（共2题,8.6分）*
+
+*1*
+
+wx.checkIsSupportSoterAuthentication()获取本机支持的 SOTER 生物认证方式，目前支持的认证方式有？
+
+- A、
+
+  fingerPrint 指纹识别 
+
+- B、
+
+  facial 人脸识别 
+
+- C、
+
+  speech 声纹识别
+
+- D、
+
+  iris 虹膜
+
+正确答案： AB 我的答案：AB得分： 4.3分
+
+*2*
+
+wx.startSoterAuthentication()开始 SOTER 生物认证。必须的参数属性有？
+
+- A、
+
+  requestAuthModes
+
+- B、
+
+  challenge
+
+- C、
+
+  authContent
+
+- D、
+
+  raw
+
+正确答案： AB 我的答案：AB得分： 4.3分
+
+### 三.判断题*（共10题,44.1分）*
+
+*1*
+
+wx.getWeRunData(Object object)获取用户过去三十天微信运动步数。返回的是包含用户敏感信息的加密数据，需要通过访问服务端解密，或者使用cloudID，通过云调用直接获取开放数据。
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*2*
+
+wx.authorize()提前向用户发起授权请求.调用后会立刻弹窗询问用户是否同意授权小程序使用某项功能或获取用户的某些数据，但不会实际调用对应接口。如果用户之前已经同意授权，则不会出现弹窗，直接返回成功。
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*3*
+
+wx.getSetting()获取用户的当前设置。返回值中只会出现小程序已经向用户请求过的权限。与wx.openSetting()作用几乎相同，只是不显示权限设置页面。
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*4*
+
+wx.navigateToMiniProgram()用于打开另一个小程序
+
+从2020年4月24日起，使用跳转其他小程序功能将无需在全局配置中声明跳转名单，调用此接口时将不再校验所跳转的 AppID 是否在 navigateToMiniProgramAppIdList 中。
+
+，跳转其他小程序将不再受数量限制，
+
+
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*5*
+
+wx.navigateBackMiniProgram()用于返回到上一个小程序。只有在当前小程序是被其他小程序打开时可以调用成功。无法传递参数给上一个小程序。
+
+我的答案：*×* 得分： 4.3分正确答案：*×*
+
+答案解析：
+
+extraData属性可以设置参数
+
+*6*
+
+wx.getWeRunData(Object object)获取用户过去三十天微信运动步数。需要先调用 wx.login 接口。步数信息会在用户主动进入小程序时更新。调用前需要用户授权 scope.werun
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*7*
+
+wx.requestSubscribeMessage()调起客户端小程序订阅消息界面，微信用户同意后，小程序即可获得一次向该微信用户下发订阅消息的授权。
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*8*
+
+wx.openSetting()调起客户端小程序设置界面。设置界面只会出现小程序已经向用户请求过的权限
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*9*
+
+wx.openSetting()调起客户端小程序设置界面。当设置withSubscriptions属性为true时，会同时获取用户订阅消息的订阅状态，但只返回用户勾选过订阅面板中的“总是保持以上选择，不再询问”的订阅消息。
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*10*
+
+wx.chooseInvoiceTitle( )选择用户的发票抬头。当前小程序必须关联一个公众号，且这个公众号是完成了微信认证的，才能调用。
+
+请调用api确认一下。
+
+我的答案：*×* 得分： 5.4分正确答案：*×*
+
+答案解析：
+
+经验证，不需要关联公众号也能用。
+
+## 课后作业26
+
+### 一.单选题*（共13题,65.0分）*
+
+*1*
+
+api设备
+
+https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.stopWifi.html
+
+- A、
+
+  a
+
+- B、
+
+  b
+
+正确答案： A 我的答案：A得分： 5.0分
+
+*2*
+
+wx.vibrateLong()使手机发生较长时间的振动
+
+- A、
+
+  100ms
+
+- B、
+
+  400ms
+
+- C、
+
+  500ms
+
+- D、
+
+  300ms
+
+正确答案： B 我的答案：B得分： 5.0分
+
+*3*
+
+wx.vibrateShort()使手机发生较短时间的振动。
+
+- A、
+
+  5ms
+
+- B、
+
+  15ms
+
+- C、
+
+  1s
+
+- D、
+
+  3s
+
+正确答案： B 我的答案：B得分： 5.0分
+
+*4*
+
+wx.scanCode()调起客户端扫码界面进行扫码。下面哪个不是参数对象属性scanType的合法值
+
+
+
+- A、
+
+  barCode 一维码
+
+- B、
+
+  qrCode 二维码 
+
+- C、
+
+  datamatrix Data Matrix 码 
+
+- D、
+
+  pdf417 PDF417 条码
+
+- E、
+
+  legendCode 赛克码
+
+正确答案： E 我的答案：E得分： 5.0分
+
+*5*
+
+wx.startBeaconDiscovery()开始搜索附近的 iBeacon 设备，必须的参数属性是？
+
+- A、
+
+  uuids Array.<string> ：iBeacon 设备广播的 uuid 列表
+
+- B、
+
+  ignoreBluetoothAvailable： 是否校验蓝牙开关，仅在 iOS 下有效
+
+- C、
+
+  IBeaconInfo：iBeacon设备信息
+
+- D、
+
+  rssi：iBeacon设备的信号强度
+
+正确答案： A 我的答案：A得分： 5.0分
+
+*6*
+
+wx.addPhoneContact()添加手机通讯录联系人。用户可以选择将该表单以「新增联系人」或「添加到已有联系人」的方式，写入手机系统通讯录。必须的属性是？
+
+- A、
+
+  firstName 名字
+
+- B、
+
+  lastName 姓氏
+
+- C、
+
+  weChatNumber 微信号
+
+- D、
+
+  mobilePhoneNumber 手机号
+
+正确答案： A 我的答案：A得分： 5.0分
+
+*7*
+
+wx.onDeviceMotionChange()监听设备方向变化事件，下面对回调参数叙述错误的是？
+
+
+
+- A、
+
+  alpha number 当 手机坐标 X/Y 和 地球 X/Y 重合时，绕着 Z 轴转动的夹角为 alpha，范围值为 [0, 2*PI)。逆时针转动为正。
+
+- B、
+
+  beta number 当手机坐标 Y/Z 和地球 Y/Z 重合时，绕着 X 轴转动的夹角为 beta。范围值为 [-1*PI, PI) 。顶部朝着地球表面转动为正。也有可能朝着用户为正。
+
+- C、
+
+  gamma number 当手机 X/Z 和地球 X/Z 重合时，绕着 Y 轴转动的夹角为 gamma。范围值为 [-1*PI/2, PI/2)。右边朝着地球表面转动为正。
+
+- D、
+
+  gamma number 当手机 X/Y 和地球 X/Y 重合时，绕着 Z 轴转动的夹角为 gamma。范围值为 [-1*PI/2, PI/2)。右边朝着地球表面转动为正。
+
+正确答案： D 我的答案：D得分： 5.0分
+
+*8*
+
+wx.onGyroscopeChange()监听陀螺仪数据变化事件。回调参数叙述错误的是？
+
+- A、
+
+  x number x 轴的角速度
+
+- B、
+
+  y number y 轴的角速度
+
+- C、
+
+  z number z 轴的角速度
+
+- D、
+
+  alpha number 转速的变化值
+
+正确答案： D 我的答案：D得分： 5.0分
+
+*9*
+
+wx.onCompassChange()监听罗盘数据变化事件，频率是？
+
+- A、
+
+  1 次/秒
+
+- B、
+
+  3 次/秒
+
+- C、
+
+  5 次/秒
+
+- D、
+
+  10 次/秒
+
+正确答案： C 我的答案：C得分： 5.0分
+
+*10*
+
+设置屏幕亮度的api是？
+
+- A、
+
+  wx.setScreenBrightness()
+
+- B、
+
+  wx.setKeepScreenOn()
+
+- C、
+
+  wx.getScreenBrightness()
+
+- D、
+
+  wx.onUserCaptureScreen()
+
+正确答案： A 我的答案：A得分： 5.0分
+
+*11*
+
+IBeaconInfo中不存在的属性是？
+
+- A、
+
+  uuid：iBeacon设备广播的uuid
+
+- B、
+
+  major：iBeacon设备的主id
+
+- C、
+
+  minor：iBeacon设备的次id
+
+- D、
+
+  proximity：表示设备距离的枚举值
+
+- E、
+
+  accuracy：iBeacon设备的距离
+
+- F、
+
+  rssi：表示设备的信号强度
+
+- G、
+
+  password：iBeacon设备的密码
+
+正确答案： G 我的答案：G得分： 5.0分
+
+*12*
+
+wx.getNetworkType()获取网络类型，回调参数networkType的无效值是？
+
+- A、
+
+  wifi
+
+- B、
+
+  1g
+
+- C、
+
+  4g
+
+- D、
+
+  5g
+
+正确答案： B 我的答案：B得分： 5.0分
+
+*13*
+
+wx.startAccelerometer()开始监听加速度数据。下面哪个不是interval属性的合法值
+
+- A、
+
+  game
+
+- B、
+
+  ui
+
+- C、
+
+  normal
+
+- D、
+
+  fast
+
+正确答案： D 我的答案：D得分： 5.0分
+
+### 二.多选题*（共2题,10.0分）*
+
+*1*
+
+wx.connectWifi()连接 Wi-Fi。若已知 Wi-Fi 信息，可以直接利用该接口连接。必须提供的参数有？
+
+- A、
+
+  SSID Wi-Fi设备SSID
+
+- B、
+
+  BSSID Wi-Fi设备BSSID
+
+- C、
+
+  password Wi-Fi设备密码
+
+- D、
+
+  type Wi-Fi设备类型
+
+正确答案： AC 我的答案：AC得分： 5.0分
+
+*2*
+
+wx.getBatteryInfo()获取设备电量，回调参数的属性有？
+
+- A、
+
+  level：  string 设备电量，范围 1 - 100 。（实测是number类型）
+
+- B、
+
+  isCharging： boolean 是否正在充电中
+
+- C、
+
+  warning： boolean 电量小于20%
+
+- D、
+
+  alert ： boolean 电量小于10%
+
+正确答案： AB 我的答案：AB得分： 5.0分
+
+答案解析：
+
+### 三.判断题*（共5题,25.0分）*
+
+*1*
+
+iBeacons是配备有低功耗蓝牙（BLE）通信功能的设备使用BLE技术定期近距离广播自己特有的ID，常用在微信摇一摇的场景。
+
+我的答案：*√* 得分： 5.0分正确答案：*√*
+
+*2*
+
+wx.onMemoryWarning()监听内存不足告警事件。
+
+当 iOS/Android 向小程序进程发出内存警告时，触发该事件。触发该事件不意味小程序被杀，大部分情况下仅仅是告警，开发者可在收到通知后回收一些不必要资源避免进一步加剧内存紧张。
+
+
+
+我的答案：*√* 得分： 5.0分正确答案：*√*
+
+*3*
+
+wx.stopWifi()关闭 Wi-Fi模块，wx.startWifi()初始化 Wi-Fi 模块。是初始化和关闭微信小程序提供的wifi功能，而不是说关闭系统的wifi
+
+我的答案：*√* 得分： 5.0分正确答案：*√*
+
+答案解析：
+
+*4*
+
+wx.makePhoneCall()拨打电话，需要获取user.phone权限
+
+我的答案：*×* 得分： 5.0分正确答案：*×*
+
+*5*
+
+wx.onUserCaptureScreen()监听用户主动截屏事件。用户使用系统截屏按键截屏时触发，只能注册一个监听，监听的回调参数是空对象。
+
+我的答案：*√* 得分： 5.0分正确答案：*√*
+
+## 课后作业27
+
+### 一.单选题*（共7题,30.1分）*
+
+*1*
+
+NodesRef是用于获取WXML节点信息的对象，目前有五个方法，其中的四个方法只有一个参数，就是节点信息查询的回调函数，另外的一个方法除了回调函数外，还需要传入一个参数，这个方法是？
+
+- A、
+
+  NodesRef.fields()
+
+- B、
+
+  NodesRef.boundingClientRect()
+
+- C、
+
+  NodesRef.scrollOffset()
+
+- D、
+
+  NodesRef.context()
+
+- E、
+
+  NodesRef.node()
+
+正确答案： A 我的答案：A得分： 4.3分
+
+*2*
+
+api worker 多线程
+
+https://developers.weixin.qq.com/miniprogram/dev/api/worker/wx.createWorker.html
+
+
+
+api wxml
+
+https://developers.weixin.qq.com/miniprogram/dev/api/wxml/wx.createSelectorQuery.html
+
+选a
+
+- A、
+
+  a
+
+- B、
+
+  b
+
+正确答案： A 我的答案：A得分： 4.3分
+
+*3*
+
+将选择器的选取范围更改为自定义组件component内，需要使用哪个API？
+
+- A、
+
+  SelectorQuery.in()
+
+- B、
+
+  SelectorQuery.select()
+
+- C、
+
+  SelectorQuery.selectAll()
+
+- D、
+
+  SelectorQuery.selectViewport()
+
+正确答案： A 我的答案：A得分： 4.3分
+
+*4*
+
+NodesRef.fields(Object fields, NodesRef.FieldsCallback callback)获取节点的相关信息。需要获取的字段在fields中指定。返回值是 nodesRef 对应的 selectorQuery。
+
+下面哪项不是fields字段的属性？
+
+- A、
+
+  id
+
+- B、
+
+  dataset
+
+- C、
+
+  computedStyle
+
+- D、
+
+  context
+
+- E、
+
+  node
+
+- F、
+
+  mark
+
+- G、
+
+  tag
+
+正确答案： G 我的答案：G得分： 4.3分
+
+*5*
+
+执行所有的请求。请求结果按请求次序构成数组，在callback的第一个参数中返回，需要用到哪个API？
+
+- A、
+
+  SelectorQuery.in()
+
+- B、
+
+  SelectorQuery.exec()
+
+- C、
+
+  SelectorQuery.select()
+
+- D、
+
+  SelectorQuery.selectAll()
+
+正确答案： B 我的答案：B得分： 4.3分
+
+*6*
+
+NodesRef是用于获取WXML节点信息的对象，添加节点的滚动位置查询请求，以像素为单位。节点必须是 scroll-view 或者 viewport的方法是哪一个？
+
+- A、
+
+  NodesRef.fields()
+
+- B、
+
+  NodesRef.boundingClientRect()
+
+- C、
+
+  NodesRef.scrollOffset()
+
+- D、
+
+  NodesRef.context()
+
+- E、
+
+  NodesRef.node()
+
+正确答案： C 我的答案：C得分： 4.3分
+
+答案解析：
+
+*7*
+
+NodesRef是用于获取WXML节点信息的对象，获取节点实例的方法是哪一个？
+
+- A、
+
+  NodesRef.fields()
+
+- B、
+
+  NodesRef.boundingClientRect()
+
+- C、
+
+  NodesRef.scrollOffset()
+
+- D、
+
+  NodesRef.context()
+
+- E、
+
+  NodesRef.node()
+
+正确答案： E 我的答案：E得分： 4.3分
+
+### 二.多选题*（共2题,8.6分）*
+
+*1*
+
+SelectorQuery.select(string selector)在当前页面下选择第一个匹配选择器selector的节点。返回一个NodesRef对象实例，可以用于获取节点信息。selector类似于 CSS 的选择器，但仅支持下列语法。
+
+- A、
+
+  ID选择器：#the-id
+
+- B、
+
+  class选择器（可以连续指定多个）：.a-class.another-class
+
+- C、
+
+  子元素选择器：.the-parent > .the-child
+
+- D、
+
+  后代选择器：.the-ancestor .the-descendant
+
+- E、
+
+  跨自定义组件的后代选择器：.the-ancestor >>> .the-descendant
+
+- F、
+
+  多选择器的并集：#a-node, .some-other-nodes
+
+- G、
+
+  元素选择器：button
+
+正确答案： ABCDEF 我的答案：ABCDEF得分： 4.3分
+
+*2*
+
+NodesRef.context()添加节点的 Context 对象查询请求。目前支持哪些上下文的获取
+
+
+
+
+
+- A、
+
+   VideoContext
+
+- B、
+
+  CanvasContext
+
+  canvas组件要设置canvas-id属性，不设置type属性，才能获取到canvasContext
+
+- C、
+
+  LivePlayerContext
+
+- D、
+
+  EditorContext
+
+- E、
+
+  MapContext 
+
+正确答案： ABCDE 我的答案：ABCDE得分： 4.3分
+
+### 三.判断题*（共14题,61.3分）*
+
+*1*
+
+SelectorQuery的几个查询方法：SelectorQuery.in()，SelectorQuery.select()，SelectorQuery.selectAll()和SelectorQuery.selectViewport()都需要马上调用NodesRef的获取节点信息的相关方法，才能成功调用exec()方法，执行所有查询节点的请求。
+
+![QQ20200609-203700@2x.png](md_img/af827775b46159e1ba21f710e31962d0.png)
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*2*
+
+NodesRef.node()用于获取Node节点实例。目前支持Canvas的获取。canvas组件要设置type属性为2d或webgl，才能成功获取canvas，使用node.getContext('2d')方法获取CanvasRenderingContext2D，使用node.getContext('webgl')获取WebGLRenderingContext。
+
+。
+
+
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*3*
+
+序列化(Serialization)是将对象的状态信息转换为可以存储或传输的形式的过程。
+
+通俗点讲，就是将对象转换为字符串形式，以便于传输或者存储。
+
+如果再具体一点，那就是将对象转换为JSON格式字符串的操作。
+
+
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+答案解析：
+
+*4*
+
+Worker.postMessage(Object message)用于向主线程/Worker 线程发送的消息。需要发送的消息，必须是一个可序列化的 JavaScript key-value 形式的对象。
+
+
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*5*
+
+wx.getExtConfig()获取第三方平台自定义的数据字段。wx.getExtConfigSync() 的异步版本。
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*6*
+
+wx.createWorker(string scriptPath)用于创建一个 Worker 线程。目前限制最多只能创建一个 Worker，创建下一个 Worker 前请先调用 Worker.terminate
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*7*
+
+一些异步处理的任务，可以放置于 Worker 中运行，待运行结束后，再把结果返回到小程序主线程。Worker 运行于一个单独的全局上下文与线程中，不能直接调用主线程的方法。
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*8*
+
+wx.createSelectorQuery()返回一个 SelectorQuery 对象实例。在自定义组件或包含自定义组件的页面中，应使用 this.createSelectorQuery() 来代替。
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*9*
+
+Worker内代码只能require指定 Worker 路径内的文件，无法引用其它路径
+
+Worker的入口文件由 wx.createWorker() 时指定，开发者可动态指定 Worker 入口文件
+
+Worker内不支持wx系列的 API
+
+Workers之间不支持发送消息
+
+
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*10*
+
+在app.json中可配置Worker代码放置的目录，目录下的代码将被打包成一个文件。
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*11*
+
+Worker.terminate()结束当前Worker线程。仅限在主线程worker对象上调用。
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*12*
+
+wx.createWorker(string scriptPath)创建worker线程，参数scriptPath可以传入worker入口文件的相对路径
+
+我的答案：*×* 得分： 4.3分正确答案：*×*
+
+答案解析：
+
+必须是绝对路径
+
+*13*
+
+selectQuery是节点信息查询API可以用于获取节点属性、样式、在界面上的位置等信息。最常见的用法是使用它来查询某个节点的当前位置，以及界面的滚动位置。
+
+我的答案：*√* 得分： 4.3分正确答案：*√*
+
+*14*
+
+Worker 与主线程之间的数据传输，双方使用 Worker.postMessage() 来发送数据，Worker.onMessage() 来接收数据，传输的数据并不是直接复制，而是共享的。
+
+我的答案：*×* 得分： 5.4分正确答案：*×*
+
+## 课后作业28
+
+### 一.单选题*（共13题,67.6分）*
+
+*1*
+
+analysis.getVisitDistribution。获取用户小程序访问分布数据。现有数据如下图。访问来源为“会话 ”的pv是多少？
+
+
+
+![img](https://mooc1-1.chaoxing.com/js/editor20150812/dialogs/attachment_new/fileTypeImages/icon_pdf.gif)[QQ20200610-044303@2x.pdf](https://mooc1-1.chaoxing.com/ueditorupload/read?objectId=f186baf8584d10bfe3e0a35cea96b683&fileOriName=QQ20200610-044303@2x.pdf)完整大图的pdf，图片太大，上传失败，只能转成pdf。
+
+
+
+
+
+![QQ20200610-050044@2x.png](md_img/c0971a60abfd3b5daddfdc7dde35ff89.png)
+
+![QQ20200610-050129@2x.png](md_img/a1d3ec032fb493876fef5bdced566190.png)
+
+![QQ20200610-050113@2x.png](md_img/639d6a65c3399e723d6990c25599fac7.png)
+
+![QQ20200610-050105@2x.png](md_img/a46736bd5e9d5bc853c171d2e11320f8.png)
+
+
+
+
+
+- A、
+
+  432
+
+- B、
+
+  68
+
+- C、
+
+  167
+
+- D、
+
+  48
+
+正确答案： A 我的答案：A得分： 5.2分
+
+*2*
+
+auth.getPaidUnionId。服务端接口。
+
+用户支付完成后，获取该用户的 UnionId，无需用户授权。
+
+本接口支持第三方平台代理查询。
+
+本接口支持云调用。
+
+调用前需要用户完成支付，且在支付后的五分钟内有效。
+
+云调用接口方法名称是？
+
+- A、
+
+  openapi.auth.getPaidUnionId
+
+- B、
+
+  openapi.analysis.getDailyRetain
+
+- C、
+
+  openapi.customerServiceMessage.send
+
+- D、
+
+  openapi.uniformMessage.send
+
+- E、
+
+  openapi.subscribeMessage.send
+
+正确答案： A 我的答案：A得分： 5.2分
+
+*3*
+
+服务端
+
+https://developers.weixin.qq.com/miniprogram/dev/api-backend/
+
+
+
+- A、
+
+  a
+
+- B、
+
+  b
+
+正确答案： A 我的答案：A得分： 5.2分
+
+*4*
+
+analysis.getVisitDistribution。获取用户小程序访问分布数据。现有数据如下图。访问深度为3页的pv是多少？
+
+
+
+![img](https://mooc1-1.chaoxing.com/js/editor20150812/dialogs/attachment_new/fileTypeImages/icon_pdf.gif)[QQ20200610-044303@2x.pdf](https://mooc1-1.chaoxing.com/ueditorupload/read?objectId=f186baf8584d10bfe3e0a35cea96b683&fileOriName=QQ20200610-044303@2x.pdf)完整大图的pdf，图片太大，上传失败，只能转成pdf。
+
+
+
+
+
+![QQ20200610-050044@2x.png](md_img/c0971a60abfd3b5daddfdc7dde35ff89.png)
+
+![QQ20200610-050129@2x.png](md_img/a1d3ec032fb493876fef5bdced566190.png)
+
+![QQ20200610-050113@2x.png](md_img/639d6a65c3399e723d6990c25599fac7.png)
+
+![QQ20200610-050105@2x.png](md_img/a46736bd5e9d5bc853c171d2e11320f8.png)
+
+
+
+
+
+- A、
+
+  936
+
+- B、
+
+  111
+
+- C、
+
+  167
+
+- D、
+
+  48
+
+正确答案： D 我的答案：D得分： 5.2分
+
+答案解析：
+
+*5*
+
+analysis.getVisitDistribution。获取用户小程序访问分布数据。现有数据如下图。访问时长6-10s的pv是多少？
+
+
+
+![img](https://mooc1-1.chaoxing.com/js/editor20150812/dialogs/attachment_new/fileTypeImages/icon_pdf.gif)[QQ20200610-044303@2x.pdf](https://mooc1-1.chaoxing.com/ueditorupload/read?objectId=f186baf8584d10bfe3e0a35cea96b683&fileOriName=QQ20200610-044303@2x.pdf)完整大图的pdf，图片太大，上传失败，只能转成pdf。
+
+
+
+
+
+![QQ20200610-050044@2x.png](md_img/c0971a60abfd3b5daddfdc7dde35ff89.png)
+
+![QQ20200610-050129@2x.png](md_img/a1d3ec032fb493876fef5bdced566190.png)
+
+![QQ20200610-050113@2x.png](md_img/639d6a65c3399e723d6990c25599fac7.png)
+
+![QQ20200610-050105@2x.png](md_img/a46736bd5e9d5bc853c171d2e11320f8.png)
+
+
+
+
+
+- A、
+
+  936
+
+- B、
+
+  111
+
+- C、
+
+  167
+
+- D、
+
+  48
+
+正确答案： C 我的答案：C得分： 5.2分
+
+答案解析：
+
+*6*
+
+auth.getAccessToken。获取小程序全局唯一后台接口调用凭据（access_token）。调用绝大多数后台接口时都需使用 access_token，开发者需要进行妥善保存。
+
+请求参数不包含以下哪项？
+
+- A、
+
+  grant_type 填写 client_credential
+
+- B、
+
+  appid 小程序唯一凭证，即 AppID，可在「微信公众平台 - 开发 - 开发设置」页中获得。（需要已经成为开发者，且帐号没有异常状态）
+
+- C、
+
+  secret 小程序唯一凭证密钥，即 AppSecret，获取方式同 appid
+
+- D、
+
+  access_token 获取到的凭证
+
+正确答案： D 我的答案：D得分： 5.2分
+
+*7*
+
+analysis.getVisitPage。页面访问统计服务端接口。目前只提供按 page_visit_pv 排序的 top200。根据下图分析，转发人数是多少？
+
+![QQ20200610-051608@2x.png](md_img/fbd168bffb3d916454c5d595bb506863.png)
+
+- A、
+
+  2646
+
+- B、
+
+  156
+
+- C、
+
+  18
+
+- D、
+
+  14
+
+正确答案： D 我的答案：D得分： 5.2分
+
+*8*
+
+数据分析服务端接口中，目前没有哪一项？
+
+- A、
+
+  analysis.getDailyRetain 获取用户访问小程序日留存
+
+- B、
+
+  analysis.getMonthlyRetain 获取用户访问小程序月留存
+
+- C、
+
+  analysis.getWeeklyRetain 获取用户访问小程序月周留存
+
+- D、
+
+  analysis.getYearlyRetain 获取用户访问小程序年周留存
+
+正确答案： D 我的答案：D得分： 5.2分
+
+*9*
+
+access_token需定时刷新，重复获取将导致上次获取的 access_token 失效，有效期为多久？
+
+- A、
+
+  60秒
+
+- B、
+
+  300秒
+
+- C、
+
+  1000秒
+
+- D、
+
+  7200秒
+
+正确答案： D 我的答案：D得分： 5.2分
+
+*10*
+
+analysis.getVisitDistribution。获取用户小程序访问分布数据。现有数据如下图。记录访问pv数据的是哪一项？
+
+![img](https://mooc1-1.chaoxing.com/js/editor20150812/dialogs/attachment_new/fileTypeImages/icon_pdf.gif)[QQ20200610-044303@2x.pdf](https://mooc1-1.chaoxing.com/ueditorupload/read?objectId=f186baf8584d10bfe3e0a35cea96b683&fileOriName=QQ20200610-044303@2x.pdf)
+
+
+
+- A、
+
+  ![QQ20200610-050044@2x.png](md_img/c0971a60abfd3b5daddfdc7dde35ff89.png)
+
+- B、
+
+  ![QQ20200610-050105@2x.png](md_img/a46736bd5e9d5bc853c171d2e11320f8.png)
+
+- C、
+
+  ![QQ20200610-050113@2x.png](md_img/639d6a65c3399e723d6990c25599fac7.png)
+
+- D、
+
+  ![QQ20200610-050129@2x.png](md_img/a1d3ec032fb493876fef5bdced566190.png)
+
+正确答案： A 我的答案：A得分： 5.2分
+
+答案解析：
+
+官方文档更新略慢，api返回的是四组数据。
+
+*11*
+
+analysis.getVisitDistribution。获取用户小程序访问分布数据。现有数据如下图。通过微信聊天主界面下拉，「最近使用」栏方式进入小程序，场景值1089的uv是多少？
+
+
+
+![img](https://mooc1-1.chaoxing.com/js/editor20150812/dialogs/attachment_new/fileTypeImages/icon_pdf.gif)[QQ20200610-044303@2x.pdf](https://mooc1-1.chaoxing.com/ueditorupload/read?objectId=f186baf8584d10bfe3e0a35cea96b683&fileOriName=QQ20200610-044303@2x.pdf)完整大图的pdf，图片太大，上传失败，只能转成pdf。
+
+
+
+
+
+![QQ20200610-050044@2x.png](md_img/c0971a60abfd3b5daddfdc7dde35ff89.png)
+
+![QQ20200610-050129@2x.png](md_img/a1d3ec032fb493876fef5bdced566190.png)
+
+![QQ20200610-050113@2x.png](md_img/639d6a65c3399e723d6990c25599fac7.png)
+
+![QQ20200610-050105@2x.png](md_img/a46736bd5e9d5bc853c171d2e11320f8.png)
+
+
+
+
+
+- A、
+
+  936
+
+- B、
+
+  111
+
+- C、
+
+  167
+
+- D、
+
+  48
+
+正确答案： B 我的答案：B得分： 5.2分
+
+答案解析：
+
+*12*
+
+auth.code2Session。登录凭证校验服务端接口。调用的频率限制是每分钟多少次？
+
+- A、
+
+  10
+
+- B、
+
+  50
+
+- C、
+
+  100
+
+- D、
+
+  500
+
+正确答案： C 我的答案：C得分： 5.2分
+
+*13*
+
+发送客服消息给用户，需要调用哪个服务端接口？
+
+- A、
+
+  customerServiceMessage.send
+
+- B、
+
+  uniformMessage.send
+
+- C、
+
+  subscribeMessage.send
+
+- D、
+
+  subscribeMessage.send
+
+  updatableMessage.setUpdatableMsg
+
+  
+
+正确答案： A 我的答案：A得分： 5.2分
+
+### 二.多选题*（共6题,32.4分）*
+
+*1*
+
+analysis.getDailySummary。获取用户访问小程序数据概况的服务端接口。可以获取的数据有哪些项目？
+
+- A、
+
+  visitTotal 累计用户数
+
+- B、
+
+  sharePv 转发次数
+
+- C、
+
+  shareUv 转发人数
+
+- D、
+
+  visit_uv_new 新增用户留存
+
+- E、
+
+  visit_uv 活跃用户留存
+
+正确答案： ABC 我的答案：ABC得分： 5.2分
+
+*2*
+
+analysis.getUserPortrait。获取小程序新增或活跃用户的画像分布数据。时间范围支持昨天、最近7天、最近30天。其中，新增用户数为时间范围内首次访问小程序的去重用户数，活跃用户数为时间范围内访问过小程序的去重用户数。
+
+用户画像数据包含的属性有哪些？
+
+- A、
+
+  province 省份，如北京、广东等
+
+- B、
+
+  city 城市，如北京、广州等
+
+- C、
+
+  genders 性别，包括男、女、未知
+
+- D、
+
+  platforms 终端类型，包括 iPhone，android，其他
+
+- E、
+
+  devices 机型，如苹果 iPhone 6，OPPO R9 等
+
+- F、
+
+  ages 年龄，包括17岁以下、18-24岁等区间
+
+- G、
+
+  education 学历，包括高中、高职、本科、研究生等
+
+- H、
+
+  salary 收入，包括3000以下，3000-5000，5000-10000，10000-30000，30000以上
+
+正确答案： ABCDEF 我的答案：ABCDEF得分： 5.2分
+
+*3*
+
+访问趋势统计服务端接口可以返回的数据项有哪些？
+
+- A、
+
+  session_cnt 打开次数 
+
+- B、
+
+  visit_pv 访问次数
+
+- C、
+
+  visit_uv 访问人数
+
+- D、
+
+  visit_uv_new 新用户数
+
+- E、
+
+  stay_time_uv 人均停留时长 (浮点型，单位：秒)
+
+- F、
+
+  stay_time_session 次均停留时长 (浮点型，单位：秒)
+
+- G、
+
+  visit_depth 平均访问深度 (浮点型)
+
+正确答案： ABCDEFG 我的答案：ABCDEFG得分： 5.2分
+
+*4*
+
+以下哪些服务端接口没有云调用？
+
+- A、
+
+  auth.code2Session。登录凭证校验。
+
+- B、
+
+  auth.getAccessToken。获取小程序全局唯一后台接口调用凭据（access_token）。
+
+- C、
+
+  auth.getPaidUnionId。用户支付完成后，获取该用户的 UnionId，无需用户授权。
+
+- D、
+
+  analysis.getDailySummary。获取用户访问小程序数据概况。
+
+- E、
+
+  customerServiceMessage.setTyping。下发客服当前输入状态给用户。
+
+正确答案： AB 我的答案：AB得分： 5.2分
+
+*5*
+
+auth.code2Session。登录凭证校验服务端接口。返回的数据包有哪些属性？
+
+- A、
+
+  openid 用户唯一标识
+
+- B、
+
+  session_key 会话密钥
+
+- C、
+
+  unionid 用户在开放平台的唯一标识符，在满足 UnionID 下发条件的情况下会返回，详见 UnionID 机制说明。
+
+- D、
+
+  errcode 错误码
+
+- E、
+
+  errmsg 错误信息
+
+正确答案： ABCDE 我的答案：ABCDE得分： 5.2分
+
+*6*
+
+auth.code2Session。登录凭证校验。通过 wx.login 接口获得临时登录凭证 code 后传到开发者服务器调用此接口完成登录流程。本接口应在服务器端调用。
+
+请求地址
+
+GET https://api.weixin.qq.com/sns/jscode2session?
+
+请求参数有哪些项？
+
+- A、
+
+  appid 小程序 appId
+
+- B、
+
+  secret 小程序 appSecret
+
+- C、
+
+  js_code 登录时获取的 code
+
+- D、
+
+  grant_type 授权类型，此处只需填写 authorization_code
+
+- E、
+
+  openid 用户唯一标识
+
+正确答案： ABCD 我的答案：ABCD
